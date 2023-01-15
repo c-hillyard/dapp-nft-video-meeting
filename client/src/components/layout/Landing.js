@@ -20,8 +20,8 @@ const Landing = () => {
                     className="md:ml-3 ml-1 flex items-center justify-center text-center text-gray-300 bg-rgbColors-3 md:py-0.5 md:px-2 py-1 px-1.5 rounded-2xl cursor-pointer text-[9px] md:text-sm font-medium font-inter w-32">Check
                     it out<span className="md:ml-1"><svg width="13" height="12" viewBox="0 0 13 12" fill="none"
                       xmlns="http://www.w3.org/2000/svg">
-                      <path d="M3 6H10M10 6L6.5 2.5M10 6L6.5 9.5" stroke="#CDD5DF" stroke-width="1.5"
-                        stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M3 6H10M10 6L6.5 2.5M10 6L6.5 9.5" stroke="#CDD5DF" strokeWidth="1.5"
+                        strokeLinecap="round" strokeLinejoin="round">
                       </path>
                     </svg></span></span></div>
               </div>
@@ -117,22 +117,22 @@ const Landing = () => {
                   <rect x="0.5" y="0.5" width="161" height="47" rx="7.5" fill="#121214"></rect>
                   <path
                     d="M56.9041 12.288C56.9238 12.7281 56.8542 13.1676 56.6995 13.58C56.5448 13.9925 56.3083 14.3694 56.0041 14.688C55.6632 15.04 55.2518 15.316 54.7968 15.4979C54.3419 15.6799 53.8537 15.7638 53.3641 15.744C52.8717 15.755 52.3822 15.6648 51.9261 15.479C51.4699 15.2933 51.0567 15.0159 50.7121 14.664C50.0128 13.9488 49.6213 12.9883 49.6213 11.988C49.6213 10.9878 50.0128 10.0272 50.7121 9.31201C51.2467 8.78963 51.9237 8.43689 52.6582 8.29811C53.3926 8.15934 54.1517 8.24071 54.8401 8.53201C55.2728 8.70988 55.6588 8.98499 55.9681 9.33601L55.3321 9.97201C55.0938 9.68493 54.7918 9.45737 54.4502 9.30739C54.1086 9.15741 53.7367 9.08914 53.3641 9.10801C52.8937 9.11126 52.4313 9.22968 52.0172 9.4529C51.6032 9.67613 51.2501 9.99738 50.9889 10.3886C50.7277 10.7797 50.5663 11.229 50.5187 11.6969C50.4712 12.1649 50.539 12.6374 50.7163 13.0731C50.8935 13.5088 51.1748 13.8945 51.5355 14.1964C51.8962 14.4983 52.3253 14.7073 52.7855 14.8051C53.2456 14.9028 53.7226 14.8864 54.1749 14.7572C54.6272 14.628 55.041 14.39 55.3801 14.064C55.7466 13.6621 55.9592 13.1435 55.9801 12.6H53.3641V11.736H56.8561C56.8834 11.9188 56.8994 12.1032 56.9041 12.288Z"
-                    fill="white" stroke="white" stroke-width="0.2" stroke-miterlimit="10"></path>
+                    fill="white" stroke="white" strokeWidth="0.2" strokeMiterlimit="10"></path>
                   <path
                     d="M62.4 9.28815H59.16V11.5681H62.112V12.4321H59.16V14.7121H62.4V15.6001H58.224V8.40015H62.4V9.28815Z"
-                    fill="white" stroke="white" stroke-width="0.2" stroke-miterlimit="10"></path>
+                    fill="white" stroke="white" strokeWidth="0.2" strokeMiterlimit="10"></path>
                   <path d="M66.3361 15.6001H65.4121V9.28815H63.3961V8.40015H68.4001V9.28815H66.3361V15.6001Z"
-                    fill="white" stroke="white" stroke-width="0.2" stroke-miterlimit="10"></path>
+                    fill="white" stroke="white" strokeWidth="0.2" strokeMiterlimit="10"></path>
                   <path d="M71.928 15.6001V8.40015H72.852V15.6001H71.928Z" fill="white" stroke="white"
-                    stroke-width="0.2" stroke-miterlimit="10"></path>
+                    strokeWidth="0.2" strokeMiterlimit="10"></path>
                   <path d="M76.9559 15.6001H76.0319V9.28815H74.0159V8.40015H78.9599V9.28815H76.9559V15.6001Z"
-                    fill="white" stroke="white" stroke-width="0.2" stroke-miterlimit="10"></path>
+                    fill="white" stroke="white" strokeWidth="0.2" strokeMiterlimit="10"></path>
                   <path
                     d="M88.3319 14.6639C87.9853 15.0107 87.5738 15.2859 87.1208 15.4737C86.6678 15.6614 86.1822 15.758 85.6919 15.758C85.2015 15.758 84.716 15.6614 84.263 15.4737C83.81 15.2859 83.3985 15.0107 83.0519 14.6639C82.3735 13.9427 81.9958 12.99 81.9958 11.9999C81.9958 11.0098 82.3735 10.057 83.0519 9.33588C83.391 8.97924 83.8012 8.69776 84.256 8.50965C84.7107 8.32155 85.1999 8.231 85.6919 8.24388C86.1832 8.23611 86.6708 8.32898 87.1249 8.51678C87.5789 8.70459 87.9897 8.98334 88.3319 9.33588C88.6769 9.68687 88.9482 10.1034 89.1295 10.561C89.3109 11.0185 89.3988 11.5078 89.3879 11.9999C89.4036 12.4926 89.318 12.9832 89.1364 13.4415C88.9547 13.8997 88.6809 14.3158 88.3319 14.6639ZM83.7359 14.0639C83.9915 14.3229 84.2961 14.5286 84.6318 14.669C84.9676 14.8094 85.328 14.8817 85.6919 14.8817C86.0558 14.8817 86.4162 14.8094 86.7519 14.669C87.0877 14.5286 87.3923 14.3229 87.6479 14.0639C88.1657 13.5012 88.4531 12.7645 88.4531 11.9999C88.4531 11.2352 88.1657 10.4985 87.6479 9.93588C87.3923 9.67683 87.0877 9.47113 86.7519 9.33074C86.4162 9.19035 86.0558 9.11805 85.6919 9.11805C85.328 9.11805 84.9676 9.19035 84.6318 9.33074C84.2961 9.47113 83.9915 9.67683 83.7359 9.93588C83.2181 10.4985 82.9307 11.2352 82.9307 11.9999C82.9307 12.7645 83.2181 13.5012 83.7359 14.0639Z"
-                    fill="white" stroke="white" stroke-width="0.2" stroke-miterlimit="10"></path>
+                    fill="white" stroke="white" strokeWidth="0.2" strokeMiterlimit="10"></path>
                   <path
                     d="M90.6961 15.6001V8.40015H91.8121L95.3161 14.0041V12.6121V8.40015H96.2401V15.6001H95.2801L91.6201 9.73215V11.1121V15.6001H90.6961Z"
-                    fill="white" stroke="white" stroke-width="0.2" stroke-miterlimit="10"></path>
+                    fill="white" stroke="white" strokeWidth="0.2" strokeMiterlimit="10"></path>
                   <path
                     d="M81.7681 26.0999C80.757 26.1022 79.7694 26.4044 78.93 26.9681C78.0907 27.5317 77.4373 28.3317 77.0526 29.2667C76.6679 30.2017 76.5691 31.2297 76.7687 32.2209C76.9682 33.2121 77.4572 34.1218 78.1738 34.835C78.8904 35.5483 79.8025 36.033 80.7946 36.2279C81.7866 36.4229 82.8143 36.3192 83.7474 35.9301C84.6806 35.541 85.4775 34.8839 86.0372 34.0419C86.597 33.2 86.8944 32.2109 86.8921 31.1999C86.9019 30.5254 86.7758 29.8558 86.5215 29.2311C86.2671 28.6063 85.8897 28.0391 85.4116 27.5633C84.9335 27.0874 84.3645 26.7126 83.7386 26.4612C83.1126 26.2098 82.4425 26.0869 81.7681 26.0999ZM81.7681 34.2959C81.1484 34.3392 80.53 34.1951 79.9932 33.8823C79.4565 33.5695 79.0263 33.1025 78.7585 32.542C78.4907 31.9814 78.3977 31.3533 78.4917 30.7392C78.5856 30.1252 78.8621 29.5536 79.2852 29.0987C79.7083 28.6439 80.2585 28.3268 80.8642 28.1888C81.4699 28.0508 82.1031 28.0981 82.6815 28.3248C83.2599 28.5514 83.7568 28.9468 84.1075 29.4595C84.4582 29.9722 84.6466 30.5786 84.6481 31.1999C84.6674 31.5935 84.6077 31.987 84.4725 32.3572C84.3374 32.7273 84.1295 33.0667 83.861 33.3553C83.5926 33.6438 83.2691 33.8757 82.9097 34.0372C82.5502 34.1988 82.1621 34.2867 81.7681 34.2959ZM70.5841 26.0999C69.573 26.1022 68.5854 26.4044 67.746 26.9681C66.9067 27.5317 66.2533 28.3317 65.8686 29.2667C65.4839 30.2017 65.3851 31.2297 65.5847 32.2209C65.7842 33.2121 66.2732 34.1218 66.9898 34.835C67.7064 35.5483 68.6185 36.033 69.6106 36.2279C70.6026 36.4229 71.6303 36.3192 72.5634 35.9301C73.4966 35.541 74.2935 34.8839 74.8532 34.0419C75.413 33.2 75.7104 32.2109 75.7081 31.1999C75.7178 30.5254 75.5918 29.8558 75.3375 29.2311C75.0831 28.6063 74.7057 28.0391 74.2276 27.5633C73.7495 27.0874 73.1805 26.7126 72.5546 26.4612C71.9286 26.2098 71.2585 26.0869 70.5841 26.0999ZM70.5841 34.2959C69.9644 34.3392 69.346 34.1951 68.8092 33.8823C68.2725 33.5695 67.8423 33.1025 67.5745 32.542C67.3067 31.9814 67.2137 31.3533 67.3077 30.7392C67.4016 30.1252 67.6781 29.5536 68.1012 29.0987C68.5243 28.6439 69.0745 28.3268 69.6802 28.1888C70.2859 28.0508 70.9191 28.0981 71.4975 28.3248C72.0759 28.5514 72.5728 28.9468 72.9235 29.4595C73.2742 29.9722 73.4626 30.5786 73.4641 31.1999C73.4834 31.5935 73.4237 31.987 73.2885 32.3572C73.1534 32.7273 72.9455 33.0667 72.677 33.3553C72.4086 33.6438 72.0851 33.8757 71.7257 34.0372C71.3662 34.1988 70.9781 34.2867 70.5841 34.2959ZM57.2881 27.6719V29.8319H62.4721C62.3908 30.8492 61.9679 31.8092 61.2721 32.5559C60.7521 33.0857 60.1266 33.5004 59.4362 33.7733C58.7458 34.0461 58.0058 34.171 57.2641 34.1399C55.7364 34.1399 54.2713 33.533 53.1911 32.4528C52.1109 31.3726 51.5041 29.9075 51.5041 28.3799C51.5041 26.8522 52.1109 25.3871 53.1911 24.3069C54.2713 23.2267 55.7364 22.6199 57.2641 22.6199C58.7286 22.5981 60.1427 23.1542 61.2001 24.1679L62.7241 22.6439C62.0089 21.9365 61.1597 21.3789 60.2262 21.0039C59.2928 20.6289 58.2939 20.4439 57.2881 20.4599C56.2213 20.4183 55.1571 20.5926 54.1592 20.9722C53.1614 21.3518 52.2504 21.929 51.481 22.6691C50.7115 23.4092 50.0994 24.297 49.6813 25.2793C49.2631 26.2616 49.0476 27.3182 49.0476 28.3859C49.0476 29.4535 49.2631 30.5101 49.6813 31.4924C50.0994 32.4747 50.7115 33.3626 51.481 34.1026C52.2504 34.8427 53.1614 35.4199 54.1592 35.7995C55.1571 36.1791 56.2213 36.3534 57.2881 36.3119C58.3146 36.3529 59.3381 36.1763 60.2916 35.7936C61.245 35.411 62.1067 34.8311 62.8201 34.0919C64.0802 32.7075 64.7517 30.8869 64.6921 29.0159C64.6964 28.5655 64.6602 28.1157 64.5841 27.6719H57.2881ZM111.66 29.3519C111.347 28.4311 110.762 27.6272 109.982 27.0465C109.202 26.4658 108.264 26.1356 107.292 26.0999C106.636 26.0986 105.986 26.2319 105.383 26.4917C104.78 26.7515 104.237 27.1321 103.787 27.6101C103.337 28.0881 102.99 28.6533 102.768 29.2707C102.545 29.8882 102.451 30.5447 102.492 31.1999C102.482 32.2953 102.826 33.3646 103.474 34.2482C104.121 35.1317 105.037 35.7821 106.085 36.102C107.133 36.422 108.256 36.3945 109.287 36.0235C110.317 35.6525 111.201 34.9581 111.804 34.0439L110.064 32.8439C109.805 33.2762 109.437 33.6332 108.997 33.8795C108.557 34.1258 108.06 34.2528 107.556 34.2479C107.036 34.2693 106.522 34.133 106.08 33.8567C105.639 33.5804 105.292 33.1771 105.084 32.6999L111.912 29.8799L111.66 29.3519ZM104.7 31.0559C104.676 30.6831 104.726 30.3093 104.848 29.9562C104.97 29.6031 105.161 29.2779 105.41 28.9997C105.66 28.7214 105.962 28.4957 106.299 28.3357C106.637 28.1757 107.003 28.0846 107.376 28.0679C107.763 28.0443 108.148 28.1353 108.483 28.3295C108.818 28.5238 109.088 28.8126 109.26 29.1599L104.7 31.0559ZM99.1561 35.9999H101.4V20.9999H99.1561V35.9999ZM95.4841 27.2399H95.4001C95.0649 26.8581 94.6511 26.5532 94.1872 26.3461C93.7233 26.139 93.2201 26.0345 92.7121 26.0399C91.4007 26.1035 90.1641 26.6692 89.2584 27.6198C88.3528 28.5703 87.8477 29.8329 87.8477 31.1459C87.8477 32.4588 88.3528 33.7214 89.2584 34.672C90.1641 35.6226 91.4007 36.1883 92.7121 36.2519C93.2208 36.2621 93.7256 36.1598 94.1902 35.9524C94.6549 35.7449 95.068 35.4374 95.4001 35.0519H95.4841V35.7839C95.4841 37.7399 94.4401 38.7839 92.7601 38.7839C92.1989 38.7715 91.654 38.5927 91.1946 38.2701C90.7352 37.9474 90.3821 37.4956 90.1801 36.9719L88.2361 37.7759C88.5955 38.6786 89.2204 39.4509 90.0282 39.9909C90.8359 40.5308 91.7885 40.8129 92.7601 40.7999C95.3881 40.7999 97.5601 39.2519 97.5601 35.4839V26.3999H95.4841V27.2399ZM92.9041 34.2959C92.1178 34.2468 91.3799 33.9 90.8404 33.3259C90.301 32.7518 90.0007 31.9936 90.0007 31.2059C90.0007 30.4181 90.301 29.66 90.8404 29.0859C91.3799 28.5118 92.1178 28.1649 92.9041 28.1159C93.2884 28.1324 93.6654 28.2262 94.0127 28.3914C94.36 28.5567 94.6706 28.7901 94.9258 29.0779C95.1811 29.3656 95.3759 29.7017 95.4986 30.0663C95.6213 30.4308 95.6694 30.8163 95.6401 31.1999C95.6728 31.5847 95.6272 31.9722 95.5059 32.3388C95.3846 32.7055 95.1902 33.0438 94.9344 33.3332C94.6787 33.6226 94.3669 33.8571 94.0179 34.0226C93.6689 34.1881 93.29 34.281 92.9041 34.2959ZM122.172 20.9999H116.796V35.9999H119.04V30.3119H122.172C122.812 30.3578 123.454 30.2715 124.058 30.0583C124.663 29.8452 125.218 29.5097 125.687 29.0728C126.156 28.636 126.531 28.1071 126.787 27.5193C127.042 26.9314 127.175 26.297 127.175 25.6559C127.175 25.0147 127.042 24.3803 126.787 23.7925C126.531 23.2046 126.156 22.6757 125.687 22.2389C125.218 21.802 124.663 21.4666 124.058 21.2534C123.454 21.0402 122.812 20.9539 122.172 20.9999ZM122.172 28.1999H119.04V23.0879H122.22C122.557 23.0879 122.891 23.1543 123.203 23.2833C123.514 23.4124 123.797 23.6015 124.036 23.84C124.274 24.0785 124.464 24.3616 124.593 24.6731C124.722 24.9847 124.788 25.3186 124.788 25.6559C124.788 25.9931 124.722 26.327 124.593 26.6386C124.464 26.9502 124.274 27.2332 124.036 27.4717C123.797 27.7102 123.514 27.8993 123.203 28.0284C122.891 28.1574 122.557 28.2239 122.22 28.2239L122.172 28.1999ZM136.02 26.0519C135.203 26.0015 134.389 26.1917 133.679 26.5991C132.968 27.0064 132.393 27.613 132.024 28.3439L134.004 29.1719C134.204 28.8111 134.504 28.5161 134.869 28.3223C135.233 28.1285 135.645 28.0443 136.056 28.0799C136.341 28.0466 136.63 28.0704 136.905 28.1498C137.181 28.2293 137.438 28.3629 137.661 28.5427C137.885 28.7226 138.07 28.9451 138.206 29.1973C138.343 29.4496 138.428 29.7265 138.456 30.0119V30.1559C137.734 29.7766 136.931 29.5789 136.116 29.5799C133.98 29.5799 131.796 30.7799 131.796 32.9639C131.817 33.4281 131.931 33.8833 132.132 34.3025C132.332 34.7217 132.615 35.0964 132.963 35.4042C133.311 35.712 133.718 35.9467 134.158 36.0944C134.599 36.2421 135.065 36.2997 135.528 36.2639C136.091 36.295 136.652 36.1758 137.154 35.9186C137.656 35.6613 138.081 35.2752 138.384 34.7999H138.456V35.9999H140.616V30.2279C140.616 27.5999 138.624 26.0759 136.068 26.0759L136.02 26.0519ZM135.744 34.2719C135.012 34.2719 133.992 33.8999 133.992 32.9999C133.992 31.7999 135.264 31.3919 136.392 31.3919C137.105 31.3743 137.809 31.5483 138.432 31.8959C138.357 32.5475 138.048 33.1498 137.562 33.5911C137.077 34.0324 136.448 34.2828 135.792 34.2959L135.744 34.2719ZM148.488 26.3999L145.92 32.9039H145.848L143.184 26.3999H140.784L144.78 35.4959L142.5 40.5479H144.84L150.984 26.3999H148.488ZM128.328 35.9999H130.56V20.9999H128.328V35.9999Z"
                     fill="white"></path>
@@ -164,39 +164,39 @@ const Landing = () => {
                   <defs>
                     <linearGradient id="paint0_linear_2875_10546" x1="26.1601" y1="10.4521" x2="6.02415" y2="30.5881"
                       gradientUnits="userSpaceOnUse">
-                      <stop stop-color="#00A0FF"></stop>
-                      <stop offset="0.01" stop-color="#00A1FF"></stop>
-                      <stop offset="0.26" stop-color="#00BEFF"></stop>
-                      <stop offset="0.51" stop-color="#00D2FF"></stop>
-                      <stop offset="0.76" stop-color="#00DFFF"></stop>
-                      <stop offset="1" stop-color="#00E3FF"></stop>
+                      <stop stopColor="#00A0FF"></stop>
+                      <stop offset="0.01" stopColor="#00A1FF"></stop>
+                      <stop offset="0.26" stopColor="#00BEFF"></stop>
+                      <stop offset="0.51" stopColor="#00D2FF"></stop>
+                      <stop offset="0.76" stopColor="#00DFFF"></stop>
+                      <stop offset="1" stopColor="#00E3FF"></stop>
                     </linearGradient>
                     <linearGradient id="paint1_linear_2875_10546" x1="40.5959" y1="24" x2="11.5679" y2="24"
                       gradientUnits="userSpaceOnUse">
-                      <stop stop-color="#FFE000"></stop>
-                      <stop offset="0.41" stop-color="#FFBD00"></stop>
-                      <stop offset="0.78" stop-color="#FFA500"></stop>
-                      <stop offset="1" stop-color="#FF9C00"></stop>
+                      <stop stopColor="#FFE000"></stop>
+                      <stop offset="0.41" stopColor="#FFBD00"></stop>
+                      <stop offset="0.78" stopColor="#FFA500"></stop>
+                      <stop offset="1" stopColor="#FF9C00"></stop>
                     </linearGradient>
                     <linearGradient id="paint2_linear_2875_10546" x1="29.7959" y1="26.76" x2="2.48395" y2="54.06"
                       gradientUnits="userSpaceOnUse">
-                      <stop stop-color="#FF3A44"></stop>
-                      <stop offset="1" stop-color="#C31162"></stop>
+                      <stop stopColor="#FF3A44"></stop>
+                      <stop offset="1" stopColor="#C31162"></stop>
                     </linearGradient>
                     <linearGradient id="paint3_linear_2875_10546" x1="8.75996" y1="0.216013" x2="20.952" y2="12.408"
                       gradientUnits="userSpaceOnUse">
-                      <stop stop-color="#32A071"></stop>
-                      <stop offset="0.07" stop-color="#2DA771"></stop>
-                      <stop offset="0.48" stop-color="#15CF74"></stop>
-                      <stop offset="0.8" stop-color="#06E775"></stop>
-                      <stop offset="1" stop-color="#00F076"></stop>
+                      <stop stopColor="#32A071"></stop>
+                      <stop offset="0.07" stopColor="#2DA771"></stop>
+                      <stop offset="0.48" stopColor="#15CF74"></stop>
+                      <stop offset="0.8" stopColor="#06E775"></stop>
+                      <stop offset="1" stopColor="#00F076"></stop>
                     </linearGradient>
                   </defs>
                 </svg></div>
               </div> */}
             </section>
             <div className="md:px-16 px-2"><img alt="hero"
-              srcset="https://huddle01.com/_next/image?url=%2Fimages%2FShow.png&amp;w=1080&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FShow.png&amp;w=1920&amp;q=100 2x"
+              srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FShow.png&amp;w=1080&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FShow.png&amp;w=1920&amp;q=100 2x"
               src="https://huddle01.com/_next/image?url=%2Fimages%2FShow.png&amp;w=1920&amp;q=100" width="900" height="720" decoding="async"
               data-nimg="1" className="mx-auto" /></div>
             <div className="md:my-24 my-16 px-3 md:py-16 py-8">
@@ -207,85 +207,85 @@ const Landing = () => {
                 className="flex overflow-hidden select-none my-6 md:my-12 undefined bg-gradient-to-r from-[#050505]/60via-[#050505]/10 to-[#050505]/60">
                 <div className="flex-shrink-0 flex items-center justify-between md:gap-20 gap-10 min-w-full buildMarquee">
                   <img alt="filecoin"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2Ffilecoin.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2Ffilecoin.png&amp;w=384&amp;q=100 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2Ffilecoin.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2Ffilecoin.png&amp;w=384&amp;q=100 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2Ffilecoin.png&amp;w=384&amp;q=100" width="140"
                     height="50" decoding="async" data-nimg="1" className="object-contain" /><img
                     alt="Messari"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FMessari.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FMessari.png&amp;w=384&amp;q=100 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FMessari.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FMessari.png&amp;w=384&amp;q=100 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FMessari.png&amp;w=384&amp;q=100" width="140"
                     height="50" decoding="async" data-nimg="1" className="object-contain" /><img
                     alt="Ud"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FUD.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FUD.png&amp;w=384&amp;q=100 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FUD.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FUD.png&amp;w=384&amp;q=100 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FUD.png&amp;w=384&amp;q=100" width="140" height="50"
                     decoding="async" data-nimg="1" className="object-contain" /><img alt="Ens"
-                      srcset="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FEns.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FEns.png&amp;w=384&amp;q=100 2x"
+                      srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FEns.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FEns.png&amp;w=384&amp;q=100 2x"
                       src="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FEns.png&amp;w=384&amp;q=100" width="140" height="50"
                       decoding="async" data-nimg="1" className="object-contain" /><img alt="Livepeer"
-                        srcset="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FLivepeer.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FLivepeer.png&amp;w=384&amp;q=100 2x"
+                        srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FLivepeer.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FLivepeer.png&amp;w=384&amp;q=100 2x"
                         src="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FLivepeer.png&amp;w=384&amp;q=100" width="140"
                         height="50" decoding="async" data-nimg="1" className="object-contain" /><img
                     alt="meetWallet"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2Fmw.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2Fmw.png&amp;w=640&amp;q=100 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2Fmw.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2Fmw.png&amp;w=640&amp;q=100 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2Fmw.png&amp;w=640&amp;q=100" width="220" height="50"
                     decoding="async" data-nimg="1" className="object-contain" /><img alt="Calcom"
-                      srcset="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FCal.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FCal.png&amp;w=384&amp;q=100 2x"
+                      srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FCal.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FCal.png&amp;w=384&amp;q=100 2x"
                       src="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FCal.png&amp;w=384&amp;q=100" width="140" height="50"
                       decoding="async" data-nimg="1" className="object-contain" /><img alt="Alter"
-                        srcset="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FAlter.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FAlter.png&amp;w=384&amp;q=100 2x"
+                        srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FAlter.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FAlter.png&amp;w=384&amp;q=100 2x"
                         src="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FAlter.png&amp;w=384&amp;q=100" width="140" height="50"
                         decoding="async" data-nimg="1" className="object-contain" /><img alt="Orbits"
-                          srcset="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FOrbits.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FOrbits.png&amp;w=384&amp;q=100 2x"
+                          srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FOrbits.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FOrbits.png&amp;w=384&amp;q=100 2x"
                           src="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FOrbits.png&amp;w=384&amp;q=100" width="140" height="50"
                           decoding="async" data-nimg="1" className="object-contain" /><img alt="Reef"
-                            srcset="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FReef.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FReef.png&amp;w=384&amp;q=100 2x"
+                            srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FReef.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FReef.png&amp;w=384&amp;q=100 2x"
                             src="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FReef.png&amp;w=384&amp;q=100" width="140" height="50"
                             decoding="async" data-nimg="1" className="object-contain" /><img alt="Metapass"
-                              srcset="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FMetapass.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FMetapass.png&amp;w=384&amp;q=100 2x"
+                              srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FMetapass.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FMetapass.png&amp;w=384&amp;q=100 2x"
                               src="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FMetapass.png&amp;w=384&amp;q=100" width="140"
                               height="50" decoding="async" data-nimg="1" className="object-contain" /><img
                     alt="filecoin"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2Ffilecoin.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2Ffilecoin.png&amp;w=384&amp;q=100 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2Ffilecoin.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2Ffilecoin.png&amp;w=384&amp;q=100 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2Ffilecoin.png&amp;w=384&amp;q=100" width="140"
                     height="50" decoding="async" data-nimg="1" className="object-contain" /><img
                     alt="Messari"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FMessari.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FMessari.png&amp;w=384&amp;q=100 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FMessari.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FMessari.png&amp;w=384&amp;q=100 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FMessari.png&amp;w=384&amp;q=100" width="140"
                     height="50" decoding="async" data-nimg="1" className="object-contain" /><img
                     alt="Ud"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FUD.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FUD.png&amp;w=384&amp;q=100 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FUD.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FUD.png&amp;w=384&amp;q=100 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FUD.png&amp;w=384&amp;q=100" width="140" height="50"
                     decoding="async" data-nimg="1" className="object-contain" /><img alt="Ens"
-                      srcset="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FEns.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FEns.png&amp;w=384&amp;q=100 2x"
+                      srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FEns.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FEns.png&amp;w=384&amp;q=100 2x"
                       src="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FEns.png&amp;w=384&amp;q=100" width="140" height="50"
                       decoding="async" data-nimg="1" className="object-contain" /><img alt="Livepeer"
-                        srcset="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FLivepeer.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FLivepeer.png&amp;w=384&amp;q=100 2x"
+                        srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FLivepeer.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FLivepeer.png&amp;w=384&amp;q=100 2x"
                         src="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FLivepeer.png&amp;w=384&amp;q=100" width="140"
                         height="50" decoding="async" data-nimg="1" className="object-contain" /><img
                     alt="meetWallet"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2Fmw.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2Fmw.png&amp;w=640&amp;q=100 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2Fmw.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2Fmw.png&amp;w=640&amp;q=100 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2Fmw.png&amp;w=640&amp;q=100" width="220" height="50"
                     decoding="async" data-nimg="1" className="object-contain" /><img alt="Calcom"
-                      srcset="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FCal.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FCal.png&amp;w=384&amp;q=100 2x"
+                      srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FCal.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FCal.png&amp;w=384&amp;q=100 2x"
                       src="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FCal.png&amp;w=384&amp;q=100" width="140" height="50"
                       decoding="async" data-nimg="1" className="object-contain" /><img alt="Alter"
-                        srcset="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FAlter.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FAlter.png&amp;w=384&amp;q=100 2x"
+                        srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FAlter.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FAlter.png&amp;w=384&amp;q=100 2x"
                         src="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FAlter.png&amp;w=384&amp;q=100" width="140" height="50"
                         decoding="async" data-nimg="1" className="object-contain" /><img alt="Orbits"
-                          srcset="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FOrbits.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FOrbits.png&amp;w=384&amp;q=100 2x"
+                          srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FOrbits.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FOrbits.png&amp;w=384&amp;q=100 2x"
                           src="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FOrbits.png&amp;w=384&amp;q=100" width="140" height="50"
                           decoding="async" data-nimg="1" className="object-contain" /><img alt="Reef"
-                            srcset="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FReef.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FReef.png&amp;w=384&amp;q=100 2x"
+                            srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FReef.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FReef.png&amp;w=384&amp;q=100 2x"
                             src="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FReef.png&amp;w=384&amp;q=100" width="140" height="50"
                             decoding="async" data-nimg="1" className="object-contain" /><img alt="Metapass"
-                              srcset="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FMetapass.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FMetapass.png&amp;w=384&amp;q=100 2x"
+                              srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FMetapass.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FMetapass.png&amp;w=384&amp;q=100 2x"
                               src="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FMetapass.png&amp;w=384&amp;q=100" width="140"
                               height="50" decoding="async" data-nimg="1" className="object-contain" /><img
                     alt="filecoin"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2Ffilecoin.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2Ffilecoin.png&amp;w=384&amp;q=100 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2Ffilecoin.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2Ffilecoin.png&amp;w=384&amp;q=100 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2Ffilecoin.png&amp;w=384&amp;q=100" width="140"
                     height="50" decoding="async" data-nimg="1" className="object-contain" /><img
                     alt="Messari"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FMessari.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FMessari.png&amp;w=384&amp;q=100 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FMessari.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FMessari.png&amp;w=384&amp;q=100 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FMessari.png&amp;w=384&amp;q=100" width="140"
                     height="50" decoding="async" data-nimg="1" className="object-contain" />
                 </div>
@@ -300,7 +300,7 @@ const Landing = () => {
                 <div
                   className=" rounded-2xl p-6 md:h-72 flex flex-col items-start justify-between xl:w-[410px] mx-auto border cardStyles">
                   <img alt="icon"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FGetStarted%2F1.png&amp;w=96&amp;q=75 1x, https://huddle01.com/_next/image?url=%2Fimages%2FGetStarted%2F1.png&amp;w=256&amp;q=75 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FGetStarted%2F1.png&amp;w=96&amp;q=75 1x, https://huddle01.com/_next/image?url=%2Fimages%2FGetStarted%2F1.png&amp;w=256&amp;q=75 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FGetStarted%2F1.png&amp;w=256&amp;q=75" width="80" height="50"
                     decoding="async" data-nimg="1" className="object-contain" loading="lazy" />
                   <div className="">
@@ -315,13 +315,13 @@ const Landing = () => {
                       className="mr-2">Start Building</span><svg width="21" height="20" viewBox="0 0 21 20" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                       <path d="M4.83332 10.0001H16.5M16.5 10.0001L10.6667 4.16675M16.5 10.0001L10.6667 15.8334"
-                        stroke="#4984FD" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"></path>
+                        stroke="#4984FD" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"></path>
                     </svg></button>
                 </div>
                 <div
                   className=" rounded-2xl p-6 md:h-72 flex flex-col items-start justify-between xl:w-[410px] mx-auto border cardStyles">
                   <img alt="icon"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FGetStarted%2F2.png&amp;w=96&amp;q=75 1x, https://huddle01.com/_next/image?url=%2Fimages%2FGetStarted%2F2.png&amp;w=256&amp;q=75 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FGetStarted%2F2.png&amp;w=96&amp;q=75 1x, https://huddle01.com/_next/image?url=%2Fimages%2FGetStarted%2F2.png&amp;w=256&amp;q=75 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FGetStarted%2F2.png&amp;w=256&amp;q=75" width="80" height="50"
                     decoding="async" data-nimg="1" className="object-contain" loading="lazy" />
                   <div className="">
@@ -336,13 +336,13 @@ const Landing = () => {
                       className="mr-2">Host a Token-Gated Meeting</span><svg width="21" height="20" viewBox="0 0 21 20"
                         fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M4.83332 10.0001H16.5M16.5 10.0001L10.6667 4.16675M16.5 10.0001L10.6667 15.8334"
-                        stroke="#4984FD" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"></path>
+                        stroke="#4984FD" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"></path>
                     </svg></button>
                 </div>
                 <div
                   className=" rounded-2xl p-6 md:h-72 flex flex-col items-start justify-between xl:w-[410px] mx-auto border cardStyles">
                   <img alt="icon"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FGetStarted%2F3.png&amp;w=96&amp;q=75 1x, https://huddle01.com/_next/image?url=%2Fimages%2FGetStarted%2F3.png&amp;w=256&amp;q=75 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FGetStarted%2F3.png&amp;w=96&amp;q=75 1x, https://huddle01.com/_next/image?url=%2Fimages%2FGetStarted%2F3.png&amp;w=256&amp;q=75 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FGetStarted%2F3.png&amp;w=256&amp;q=75" width="80" height="50"
                     decoding="async" data-nimg="1" className="object-contain" loading="lazy" />
                   <div className="">
@@ -357,7 +357,7 @@ const Landing = () => {
                       className="mr-2">Try a Meeting for free</span><svg width="21" height="20" viewBox="0 0 21 20"
                         fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M4.83332 10.0001H16.5M16.5 10.0001L10.6667 4.16675M16.5 10.0001L10.6667 15.8334"
-                        stroke="#4984FD" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"></path>
+                        stroke="#4984FD" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"></path>
                     </svg></button>
                 </div>
               </div>
@@ -374,13 +374,13 @@ const Landing = () => {
                       </path>
                       <defs>
                         <linearGradient id="paint0_linear_3683_29704" x1="242" y1="0.750488" x2="242" y2="118.95" gradientUnits="userSpaceOnUse">
-                          <stop stop-color="#62CEE9">
+                          <stop stopColor="#62CEE9">
                           </stop>
-                          <stop offset="0.354167" stop-color="#5B96FC">
+                          <stop offset="0.354167" stopColor="#5B96FC">
                           </stop>
-                          <stop offset="0.677083" stop-color="#F674D3">
+                          <stop offset="0.677083" stopColor="#F674D3">
                           </stop>
-                          <stop offset="1" stop-color="#FEA5BE">
+                          <stop offset="1" stopColor="#FEA5BE">
                           </stop>
                         </linearGradient>
                       </defs>
@@ -411,34 +411,34 @@ const Landing = () => {
                 </div>
               </div>
                 <div>
-                  <img alt="SignIn" srcset="https://huddle01.com/_next/image?url=%2Fimages%2FWallet.png&amp;w=750&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FWallet.png&amp;w=1920&amp;q=100 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FWallet.png&amp;w=1920&amp;q=100" width="700" height="500" decoding="async" data-nimg="1" />
+                  <img alt="SignIn" srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FWallet.png&amp;w=750&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FWallet.png&amp;w=1920&amp;q=100 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FWallet.png&amp;w=1920&amp;q=100" width="700" height="500" decoding="async" data-nimg="1" />
                 </div>
               </div>
               <div className="md:hidden flex flex-col mt-12">
                 <div className="mb-12">
                   <div className="mb-12"><div className="text-gray-100 font-inter font-semibold text-xl">Sign in with your Wallet</div><p className="text-gray-300 font-inter font-normal text-base mt-2">Sign in to use your NFTs as an avatar and decentralized identities like ENS name, .lens, .nft, .crypto and many more.</p>
                   </div>
-                  <img alt="Wallet" srcset="https://huddle01.com/_next/image?url=%2Fimages%2FWallet.png&amp;w=750&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FWallet.png&amp;w=1920&amp;q=100 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FWallet.png&amp;w=1920&amp;q=100" width="700" height="500" decoding="async" data-nimg="1" />
+                  <img alt="Wallet" srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FWallet.png&amp;w=750&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FWallet.png&amp;w=1920&amp;q=100 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FWallet.png&amp;w=1920&amp;q=100" width="700" height="500" decoding="async" data-nimg="1" />
                 </div>
                 <div className="mb-12">
                   <div className="mb-12">
                     <div className="text-gray-100 font-inter font-semibold text-xl">Recording and Storage</div><p className="text-gray-300 font-inter font-normal text-base mt-2">Record your meetings and store them over IPFS, or email/download them instantly.</p>
                   </div>
-                  <img alt="Recording" srcset="https://huddle01.com/_next/image?url=%2Fimages%2FRecording.png&amp;w=750&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FRecording.png&amp;w=1920&amp;q=100 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FRecording.png&amp;w=1920&amp;q=100" width="700" height="500" decoding="async" data-nimg="1" />
+                  <img alt="Recording" srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FRecording.png&amp;w=750&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FRecording.png&amp;w=1920&amp;q=100 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FRecording.png&amp;w=1920&amp;q=100" width="700" height="500" decoding="async" data-nimg="1" />
                 </div>
                 <div className="mb-12">
                   <div className="mb-12">
                     <div className="text-gray-100 font-inter font-semibold text-xl">Multistream</div>
                     <p className="text-gray-300 font-inter font-normal text-base mt-2">Livestream your meetings, gaming sessions or events simultaneously via Twitch, Youtube &amp; Livepeer.</p>
                   </div>
-                  <img alt="Livestream" srcset="https://huddle01.com/_next/image?url=%2Fimages%2FLivestream.png&amp;w=750&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FLivestream.png&amp;w=1920&amp;q=100 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FLivestream.png&amp;w=1920&amp;q=100" width="700" height="500" decoding="async" data-nimg="1" />
+                  <img alt="Livestream" srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FLivestream.png&amp;w=750&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FLivestream.png&amp;w=1920&amp;q=100 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FLivestream.png&amp;w=1920&amp;q=100" width="700" height="500" decoding="async" data-nimg="1" />
                 </div>
                 <div className="mb-12">
                   <div className="mb-12">
                     <div className="text-gray-100 font-inter font-semibold text-xl">Token-Gating</div>
                     <p className="text-gray-300 font-inter font-normal text-base mt-2">Token-gate your community calls, DAO meetings or simply your regular meetings via nfts, tokens or POAPs.</p>
                   </div>
-                  <img alt="Tokengate" srcset="https://huddle01.com/_next/image?url=%2Fimages%2FTokengate.png&amp;w=750&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FTokengate.png&amp;w=1920&amp;q=100 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FTokengate.png&amp;w=1920&amp;q=100" width="700" height="500" decoding="async" data-nimg="1" />
+                  <img alt="Tokengate" srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FTokengate.png&amp;w=750&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FTokengate.png&amp;w=1920&amp;q=100 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FTokengate.png&amp;w=1920&amp;q=100" width="700" height="500" decoding="async" data-nimg="1" />
                 </div>
               </div>
             </div>
@@ -447,19 +447,19 @@ const Landing = () => {
                 Featured In</div>
               <div className="flex items-center flex-wrap justify-center w-full md:mt-12 mt-8 xl:gap-20 gap-10">
                 <img alt="logo"
-                  srcset="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FInc.png&amp;w=128&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FInc.png&amp;w=256&amp;q=100 2x"
+                  srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FInc.png&amp;w=128&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FInc.png&amp;w=256&amp;q=100 2x"
                   src="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FInc.png&amp;w=256&amp;q=100" width="100" height="50"
                   decoding="async" data-nimg="1" /><img alt="logo"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FForbes.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FForbes.png&amp;w=384&amp;q=100 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FForbes.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FForbes.png&amp;w=384&amp;q=100 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FForbes.png&amp;w=384&amp;q=100" width="140" height="50"
                     decoding="async" data-nimg="1" /><img alt="logo"
-                      srcset="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FEconomic.png&amp;w=384&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FEconomic.png&amp;w=640&amp;q=100 2x"
+                      srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FEconomic.png&amp;w=384&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FEconomic.png&amp;w=640&amp;q=100 2x"
                       src="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FEconomic.png&amp;w=640&amp;q=100" width="300" height="50"
                       decoding="async" data-nimg="1" /><img alt="logo"
-                        srcset="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FMint.png&amp;w=128&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FMint.png&amp;w=256&amp;q=100 2x"
+                        srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FMint.png&amp;w=128&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FMint.png&amp;w=256&amp;q=100 2x"
                         src="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FMint.png&amp;w=256&amp;q=100" width="110" height="50"
                         decoding="async" data-nimg="1" /><img alt="logo"
-                          srcset="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FTechAsia.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FTechAsia.png&amp;w=384&amp;q=100 2x"
+                          srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FTechAsia.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FTechAsia.png&amp;w=384&amp;q=100 2x"
                           src="https://huddle01.com/_next/image?url=%2Fimages%2FClientsImg%2FTechAsia.png&amp;w=384&amp;q=100" width="150" height="50"
                           decoding="async" data-nimg="1" />
               </div>
@@ -469,7 +469,7 @@ const Landing = () => {
                 <div className="text-gray-400 font-inter font-medium text-sm mb-2">Designed for Developers</div>
                 <div className="bg-gradient-to-r from-[#fff] via-[#fff]/80 to-[#9d9ea1]/50 bg-clip-text text-transparent md:text-6xl  font-bold font-polySans max-w-[768px] pb-4  mx-auto text-[28px] pb-1">Build Real-Time Engaging Experiences</div>
               </div>
-              <img alt="desiginimg" srcset="https://huddle01.com/_next/image?url=%2Fimages%2FRealExp.png&amp;w=1920&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FRealExp.png&amp;w=3840&amp;q=100 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FRealExp.png&amp;w=3840&amp;q=100" width="1300" height="500" decoding="async" data-nimg="1" className="mx-auto md:mt-20 mt-5" />
+              <img alt="desiginimg" srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FRealExp.png&amp;w=1920&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FRealExp.png&amp;w=3840&amp;q=100 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FRealExp.png&amp;w=3840&amp;q=100" width="1300" height="500" decoding="async" data-nimg="1" className="mx-auto md:mt-20 mt-5" />
               <div className="md:mt-10 mt-8">
                 <div className="bg-custom-2 w-full rounded-2xl backdrop-blur-lg flex items-center ">
                   <div className="bg-gradient-to-r from-[#fff] via-[#fff]/80 to-[#9d9ea1]/50 bg-clip-text text-transparent bg-custom-2 rounded-2xl font-bold font-polySans md:text-4xl text-2xl backdrop-blur-sm shadow-xl relative z-10 py-4 px-6">UseCases</div>
@@ -644,14 +644,14 @@ const Landing = () => {
                           className="mr-1 text-gray-300 font-extrabold">&lt;</span>Go To SDK<span
                             className="mx-1 text-gray-300 font-extrabold">/</span><span
                               className="text-gray-300 font-extrabold">&gt;</span></button>
-                      <button className="flex items-center  py-3 md:w-60 w-full outline-none font-inter rounded-lg cursor-pointer  justify-center hover:bg-custom-7 transition-all duration-300 ease-in-out border border-npxBorder" type="button"><span className="mr-2 text-base font-medium  text-slate-300">npx create-huddle01</span><svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.25 3.03906H12.1667C14.0335 3.03906 14.9669 3.03906 15.68 3.40237C16.3072 3.72195 16.8171 4.23189 17.1367 4.85909C17.5 5.57213 17.5 6.50555 17.5 8.3724V14.2891M5.16667 18.0391H11.9167C12.8501 18.0391 13.3168 18.0391 13.6733 17.8574C13.9869 17.6976 14.2419 17.4427 14.4017 17.129C14.5833 16.7725 14.5833 16.3058 14.5833 15.3724V8.6224C14.5833 7.68897 14.5833 7.22226 14.4017 6.86574C14.2419 6.55214 13.9869 6.29717 13.6733 6.13738C13.3168 5.95573 12.8501 5.95573 11.9167 5.95573H5.16667C4.23325 5.95573 3.76654 5.95573 3.41002 6.13738C3.09641 6.29717 2.84144 6.55214 2.68166 6.86574C2.5 7.22226 2.5 7.68897 2.5 8.6224V15.3724C2.5 16.3058 2.5 16.7725 2.68166 17.129C2.84144 17.4427 3.09641 17.6976 3.41002 17.8574C3.76654 18.0391 4.23325 18.0391 5.16667 18.0391Z" stroke="#CBD5E1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+                      <button className="flex items-center  py-3 md:w-60 w-full outline-none font-inter rounded-lg cursor-pointer  justify-center hover:bg-custom-7 transition-all duration-300 ease-in-out border border-npxBorder" type="button"><span className="mr-2 text-base font-medium  text-slate-300">npx create-huddle01</span><svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.25 3.03906H12.1667C14.0335 3.03906 14.9669 3.03906 15.68 3.40237C16.3072 3.72195 16.8171 4.23189 17.1367 4.85909C17.5 5.57213 17.5 6.50555 17.5 8.3724V14.2891M5.16667 18.0391H11.9167C12.8501 18.0391 13.3168 18.0391 13.6733 17.8574C13.9869 17.6976 14.2419 17.4427 14.4017 17.129C14.5833 16.7725 14.5833 16.3058 14.5833 15.3724V8.6224C14.5833 7.68897 14.5833 7.22226 14.4017 6.86574C14.2419 6.55214 13.9869 6.29717 13.6733 6.13738C13.3168 5.95573 12.8501 5.95573 11.9167 5.95573H5.16667C4.23325 5.95573 3.76654 5.95573 3.41002 6.13738C3.09641 6.29717 2.84144 6.55214 2.68166 6.86574C2.5 7.22226 2.5 7.68897 2.5 8.6224V15.3724C2.5 16.3058 2.5 16.7725 2.68166 17.129C2.84144 17.4427 3.09641 17.6976 3.41002 17.8574C3.76654 18.0391 4.23325 18.0391 5.16667 18.0391Z" stroke="#CBD5E1" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path></svg></button>
                     </div>
                     <div className="text-gray-400 text-xl font-inter font-semibold md:text-start text-center">
                       SDK Status</div>
                     <div className="flex md:flex-row flex-col md:items-start items-center md:justify-between mt-4">
                       <div className="flex items-center my-4"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
-                        <rect y="0.000488281" width="16" height="16" rx="8" fill="#246BFD" fill-opacity="0.4"></rect>
+                        <rect y="0.000488281" width="16" height="16" rx="8" fill="#246BFD" fillOpacity="0.4"></rect>
                         <rect x="3.19995" y="3.2005" width="9.6" height="9.6" rx="4.8" fill="#6D9CFE"></rect>
                       </svg><span className="ml-4 text-gray-400 text-lg font-medium font-inter">Available</span>
                       </div>
@@ -674,8 +674,8 @@ const Landing = () => {
                         </g>
                         <defs>
                           <filter id="filter0_ii_3444_92408" x="0" y="-0.280707" width="48" height="48.5624"
-                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                            <feFlood flood-opacity="0" result="BackgroundImageFix">
+                            filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                            <feFlood floodOpacity="0" result="BackgroundImageFix">
                             </feFlood>
                             <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape">
                             </feBlend>
@@ -702,7 +702,7 @@ const Landing = () => {
                         xmlns="http://www.w3.org/2000/svg">
                         <g filter="url(#filter0_ii_3444_92414)">
                           <rect y="0.000488281" width="48" height="48" rx="8" fill="#151B21"></rect>
-                          <g clip-path="url(#clip0_3444_92414)">
+                          <g clipPath="url(#clip0_3444_92414)">
                             <path
                               d="M11.0754 19.7072C11.0754 21.6587 12.981 23.4804 15.9853 24.5073C15.3854 27.5275 15.8778 29.9618 17.5225 30.9104C19.213 31.8853 21.7316 31.2104 24.122 29.1209C26.4522 31.1261 28.8072 31.9152 30.4504 30.964C32.1393 29.9862 32.653 27.3868 32.0365 24.2723C35.1656 23.2378 36.916 21.6844 36.916 19.7072C36.916 17.801 35.0069 16.1519 32.0431 15.1316C32.7068 11.8884 32.1444 9.51315 30.4317 8.52544C28.7804 7.57322 26.398 8.40317 24.0336 10.4609C21.5738 8.27679 19.215 7.60996 17.5039 8.60056C15.8542 9.55548 15.3834 12.034 15.9853 15.1102C13.0824 16.1223 11.0754 17.8086 11.0754 19.7072Z"
                               fill="white"></path>
@@ -737,8 +737,8 @@ const Landing = () => {
                         </g>
                         <defs>
                           <filter id="filter0_ii_3444_92414" x="0" y="-0.280707" width="48" height="48.5624"
-                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                            <feFlood flood-opacity="0" result="BackgroundImageFix">
+                            filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                            <feFlood floodOpacity="0" result="BackgroundImageFix">
                             </feFlood>
                             <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape">
                             </feBlend>
@@ -769,7 +769,7 @@ const Landing = () => {
                     <div className="flex md:flex-row flex-col md:items-start items-center md:justify-between ">
                       <div className="flex items-center my-4 "><svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
-                        <rect y="0.000488281" width="16" height="16" rx="8" fill="#F7B27A" fill-opacity="0.3"></rect>
+                        <rect y="0.000488281" width="16" height="16" rx="8" fill="#F7B27A" fillOpacity="0.3"></rect>
                         <rect x="3.19995" y="3.2005" width="9.6" height="9.6" rx="4.8" fill="#F7B27A"></rect>
                       </svg><span className="ml-4 text-gray-400 text-lg font-medium font-inter">Coming
                         Soon</span></div>
@@ -806,8 +806,8 @@ const Landing = () => {
                         </g>
                         <defs>
                           <filter id="filter0_ii_3444_92428" x="0" y="-0.280707" width="48" height="48.5624"
-                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                            <feFlood flood-opacity="0" result="BackgroundImageFix">
+                            filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                            <feFlood floodOpacity="0" result="BackgroundImageFix">
                             </feFlood>
                             <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape">
                             </feBlend>
@@ -840,8 +840,8 @@ const Landing = () => {
                         </g>
                         <defs>
                           <filter id="filter0_ii_3444_92435" x="0" y="-0.280707" width="48" height="48.5624"
-                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                            <feFlood flood-opacity="0" result="BackgroundImageFix">
+                            filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                            <feFlood floodOpacity="0" result="BackgroundImageFix">
                             </feFlood>
                             <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape">
                             </feBlend>
@@ -902,8 +902,8 @@ const Landing = () => {
                         </g>
                         <defs>
                           <filter id="filter0_ii_3444_92438" x="0" y="-0.280707" width="48" height="48.5624"
-                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                            <feFlood flood-opacity="0" result="BackgroundImageFix">
+                            filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                            <feFlood floodOpacity="0" result="BackgroundImageFix">
                             </feFlood>
                             <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape">
                             </feBlend>
@@ -940,13 +940,13 @@ const Landing = () => {
                           <path d="M18.7296 30.9071L23.3177 26.2291L27.966 30.951L23.3865 35.6203L18.7296 30.9071Z"
                             fill="#00B5F8"></path>
                           <path d="M23.3885 35.6201L27.2018 34.33L27.5806 31.3458L23.3885 35.6201Z"
-                            fill="url(#paint0_linear_3444_92452)" fill-opacity="0.8">
+                            fill="url(#paint0_linear_3444_92452)" fillOpacity="0.8">
                           </path>
                         </g>
                         <defs>
                           <filter id="filter0_ii_3444_92452" x="0" y="-0.280707" width="48" height="48.5624"
-                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                            <feFlood flood-opacity="0" result="BackgroundImageFix">
+                            filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                            <feFlood floodOpacity="0" result="BackgroundImageFix">
                             </feFlood>
                             <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape">
                             </feBlend>
@@ -971,7 +971,7 @@ const Landing = () => {
                           <linearGradient id="paint0_linear_3444_92452" x1="23.5542" y1="32.4995" x2="26.5835"
                             y2="33.5702" gradientUnits="userSpaceOnUse">
                             <stop></stop>
-                            <stop offset="1" stop-opacity="0"></stop>
+                            <stop offset="1" stopOpacity="0"></stop>
                           </linearGradient>
                         </defs>
                       </svg></span></div>
@@ -980,7 +980,7 @@ const Landing = () => {
                 </div>
               </div>
               <div><img alt="usecase"
-                srcset="https://huddle01.com/_next/image?url=%2Fimages%2F1.png&amp;w=640&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2F1.png&amp;w=1200&amp;q=100 2x"
+                srcSet="https://huddle01.com/_next/image?url=%2Fimages%2F1.png&amp;w=640&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2F1.png&amp;w=1200&amp;q=100 2x"
                 src="https://huddle01.com/_next/image?url=%2Fimages%2F1.png&amp;w=1200&amp;q=100" width="600" height="100" decoding="async"
                 data-nimg="1" /></div>
               <div className="md:hidden block w-full">
@@ -995,14 +995,14 @@ const Landing = () => {
                               xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M6.25 3.03906H12.1667C14.0335 3.03906 14.9669 3.03906 15.68 3.40237C16.3072 3.72195 16.8171 4.23189 17.1367 4.85909C17.5 5.57213 17.5 6.50555 17.5 8.3724V14.2891M5.16667 18.0391H11.9167C12.8501 18.0391 13.3168 18.0391 13.6733 17.8574C13.9869 17.6976 14.2419 17.4427 14.4017 17.129C14.5833 16.7725 14.5833 16.3058 14.5833 15.3724V8.6224C14.5833 7.68897 14.5833 7.22226 14.4017 6.86574C14.2419 6.55214 13.9869 6.29717 13.6733 6.13738C13.3168 5.95573 12.8501 5.95573 11.9167 5.95573H5.16667C4.23325 5.95573 3.76654 5.95573 3.41002 6.13738C3.09641 6.29717 2.84144 6.55214 2.68166 6.86574C2.5 7.22226 2.5 7.68897 2.5 8.6224V15.3724C2.5 16.3058 2.5 16.7725 2.68166 17.129C2.84144 17.4427 3.09641 17.6976 3.41002 17.8574C3.76654 18.0391 4.23325 18.0391 5.16667 18.0391Z"
-                        stroke="#CBD5E1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        stroke="#CBD5E1" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>
                     </svg></button></div>
                 <div className="text-gray-400 text-xl font-inter font-semibold md:text-start text-center">SDK
                   Status</div>
                 <div className="flex md:flex-row flex-col md:items-start items-center md:justify-between mt-4">
                   <div className="flex items-center my-4"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
-                    <rect y="0.000488281" width="16" height="16" rx="8" fill="#246BFD" fill-opacity="0.4"></rect>
+                    <rect y="0.000488281" width="16" height="16" rx="8" fill="#246BFD" fillOpacity="0.4"></rect>
                     <rect x="3.19995" y="3.2005" width="9.6" height="9.6" rx="4.8" fill="#6D9CFE">
                     </rect>
                   </svg><span className="ml-4 text-gray-400 text-lg font-medium font-inter">Available</span></div>
@@ -1026,8 +1026,8 @@ const Landing = () => {
                     </g>
                     <defs>
                       <filter id="filter0_ii_3444_92408" x="0" y="-0.280707" width="48" height="48.5624"
-                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                        filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                        <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                         <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
                         <feColorMatrix in="SourceAlpha" type="matrix"
                           values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
@@ -1055,7 +1055,7 @@ const Landing = () => {
                     <g filter="url(#filter0_ii_3444_92414)">
                       <rect y="0.000488281" width="48" height="48" rx="8" fill="#151B21">
                       </rect>
-                      <g clip-path="url(#clip0_3444_92414)">
+                      <g clipPath="url(#clip0_3444_92414)">
                         <path
                           d="M11.0754 19.7072C11.0754 21.6587 12.981 23.4804 15.9853 24.5073C15.3854 27.5275 15.8778 29.9618 17.5225 30.9104C19.213 31.8853 21.7316 31.2104 24.122 29.1209C26.4522 31.1261 28.8072 31.9152 30.4504 30.964C32.1393 29.9862 32.653 27.3868 32.0365 24.2723C35.1656 23.2378 36.916 21.6844 36.916 19.7072C36.916 17.801 35.0069 16.1519 32.0431 15.1316C32.7068 11.8884 32.1444 9.51315 30.4317 8.52544C28.7804 7.57322 26.398 8.40317 24.0336 10.4609C21.5738 8.27679 19.215 7.60996 17.5039 8.60056C15.8542 9.55548 15.3834 12.034 15.9853 15.1102C13.0824 16.1223 11.0754 17.8086 11.0754 19.7072Z"
                           fill="white"></path>
@@ -1090,8 +1090,8 @@ const Landing = () => {
                     </g>
                     <defs>
                       <filter id="filter0_ii_3444_92414" x="0" y="-0.280707" width="48" height="48.5624"
-                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                        filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                        <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                         <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
                         <feColorMatrix in="SourceAlpha" type="matrix"
                           values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
@@ -1122,7 +1122,7 @@ const Landing = () => {
                 <div className="flex md:flex-row flex-col md:items-start items-center md:justify-between ">
                   <div className="flex items-center my-4 "><svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
-                    <rect y="0.000488281" width="16" height="16" rx="8" fill="#F7B27A" fill-opacity="0.3"></rect>
+                    <rect y="0.000488281" width="16" height="16" rx="8" fill="#F7B27A" fillOpacity="0.3"></rect>
                     <rect x="3.19995" y="3.2005" width="9.6" height="9.6" rx="4.8" fill="#F7B27A">
                     </rect>
                   </svg><span className="ml-4 text-gray-400 text-lg font-medium font-inter">Coming
@@ -1163,8 +1163,8 @@ const Landing = () => {
                     </g>
                     <defs>
                       <filter id="filter0_ii_3444_92428" x="0" y="-0.280707" width="48" height="48.5624"
-                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                        filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                        <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                         <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
                         <feColorMatrix in="SourceAlpha" type="matrix"
                           values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
@@ -1198,8 +1198,8 @@ const Landing = () => {
                     </g>
                     <defs>
                       <filter id="filter0_ii_3444_92435" x="0" y="-0.280707" width="48" height="48.5624"
-                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                        filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                        <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                         <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
                         <feColorMatrix in="SourceAlpha" type="matrix"
                           values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
@@ -1261,8 +1261,8 @@ const Landing = () => {
                     </g>
                     <defs>
                       <filter id="filter0_ii_3444_92438" x="0" y="-0.280707" width="48" height="48.5624"
-                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                        filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                        <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                         <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
                         <feColorMatrix in="SourceAlpha" type="matrix"
                           values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
@@ -1300,12 +1300,12 @@ const Landing = () => {
                       <path d="M18.7296 30.9071L23.3177 26.2291L27.966 30.951L23.3865 35.6203L18.7296 30.9071Z"
                         fill="#00B5F8"></path>
                       <path d="M23.3885 35.6201L27.2018 34.33L27.5806 31.3458L23.3885 35.6201Z"
-                        fill="url(#paint0_linear_3444_92452)" fill-opacity="0.8"></path>
+                        fill="url(#paint0_linear_3444_92452)" fillOpacity="0.8"></path>
                     </g>
                     <defs>
                       <filter id="filter0_ii_3444_92452" x="0" y="-0.280707" width="48" height="48.5624"
-                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                        filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                        <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
                         <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
                         <feColorMatrix in="SourceAlpha" type="matrix"
                           values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
@@ -1330,7 +1330,7 @@ const Landing = () => {
                       <linearGradient id="paint0_linear_3444_92452" x1="23.5542" y1="32.4995" x2="26.5835"
                         y2="33.5702" gradientUnits="userSpaceOnUse">
                         <stop></stop>
-                        <stop offset="1" stop-opacity="0"></stop>
+                        <stop offset="1" stopOpacity="0"></stop>
                       </linearGradient>
                     </defs>
                   </svg></span></div>
@@ -1347,20 +1347,20 @@ const Landing = () => {
                   <div className="text-gray-300 text-sm font-inter font-normal md:text-lg mt-4 md:max-w-xl">We have done the heavy lifting, so, you don't have to do any work. Get a custom meeting URL to match your community or company url, and make the meeting yours, hassle-free.</div>
                   <div className="grid md:grid-cols-3 grid-cols-2 mt-10 gap-12">
                     <div className="items-start flex-col flex ">
-                      <img alt="Toggle" srcset="https://huddle01.com/_next/image?url=%2Fimages%2FToggle.png&amp;w=64&amp;q=75 1x, https://huddle01.com/_next/image?url=%2Fimages%2FToggle.png&amp;w=128&amp;q=75 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FToggle.png&amp;w=128&amp;q=75" width="60" height="10" decoding="async" data-nimg="1" className="object-cover" loading="lazy" />
+                      <img alt="Toggle" srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FToggle.png&amp;w=64&amp;q=75 1x, https://huddle01.com/_next/image?url=%2Fimages%2FToggle.png&amp;w=128&amp;q=75 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FToggle.png&amp;w=128&amp;q=75" width="60" height="10" decoding="async" data-nimg="1" className="object-cover" loading="lazy" />
                       <span className="text-slate-400 font-normal font-inter  mt-2 text-base max-w-[200px] text-left undefined">Toggle features with just a few lines of code</span></div>
                     <div className="items-start flex-col flex ">
-                      <img alt="Customize" srcset="https://huddle01.com/_next/image?url=%2Fimages%2FCustomize.png&amp;w=64&amp;q=75 1x, https://huddle01.com/_next/image?url=%2Fimages%2FCustomize.png&amp;w=128&amp;q=75 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FCustomize.png&amp;w=128&amp;q=75" width="60" height="10" decoding="async" data-nimg="1" className="object-cover" loading="lazy" /><span className="text-slate-400 font-normal font-inter  mt-2 text-base max-w-[200px] text-left undefined">Customize your subdomain UI</span>
+                      <img alt="Customize" srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FCustomize.png&amp;w=64&amp;q=75 1x, https://huddle01.com/_next/image?url=%2Fimages%2FCustomize.png&amp;w=128&amp;q=75 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FCustomize.png&amp;w=128&amp;q=75" width="60" height="10" decoding="async" data-nimg="1" className="object-cover" loading="lazy" /><span className="text-slate-400 font-normal font-inter  mt-2 text-base max-w-[200px] text-left undefined">Customize your subdomain UI</span>
                     </div>
                     <div className="items-start flex-col flex ">
-                      <img alt="Lock" srcset="https://huddle01.com/_next/image?url=%2Fimages%2FLock.png&amp;w=64&amp;q=75 1x, https://huddle01.com/_next/image?url=%2Fimages%2FLock.png&amp;w=128&amp;q=75 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FLock.png&amp;w=128&amp;q=75" width="60" height="10" decoding="async" data-nimg="1" className="object-cover" loading="lazy" /><span className="text-slate-400 font-normal font-inter  mt-2 text-base max-w-[200px] text-left undefined">Token-gate meetings on your custom URL</span>
+                      <img alt="Lock" srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FLock.png&amp;w=64&amp;q=75 1x, https://huddle01.com/_next/image?url=%2Fimages%2FLock.png&amp;w=128&amp;q=75 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FLock.png&amp;w=128&amp;q=75" width="60" height="10" decoding="async" data-nimg="1" className="object-cover" loading="lazy" /><span className="text-slate-400 font-normal font-inter  mt-2 text-base max-w-[200px] text-left undefined">Token-gate meetings on your custom URL</span>
                     </div></div></div>
-                <img alt="subdomain" srcset="https://huddle01.com/_next/image?url=%2Fimages%2FSubdomain.png&amp;w=640&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FSubdomain.png&amp;w=1200&amp;q=100 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FSubdomain.png&amp;w=1200&amp;q=100" width="600" height="100" decoding="async" data-nimg="1" className="md:mt-0 mt-4" /></div><div className="flex md:hidden flex-col ">
+                <img alt="subdomain" srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FSubdomain.png&amp;w=640&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FSubdomain.png&amp;w=1200&amp;q=100 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FSubdomain.png&amp;w=1200&amp;q=100" width="600" height="100" decoding="async" data-nimg="1" className="md:mt-0 mt-4" /></div><div className="flex md:hidden flex-col ">
                 <div className="mb-4"><div className="text-center text-start">
-                  <div className="text-gray-400 font-inter font-medium text-sm mb-2">Custom Subdomain</div><div className="bg-gradient-to-r from-[#fff] via-[#fff]/80 to-[#9d9ea1]/50 bg-clip-text text-transparent md:text-6xl  font-bold font-polySans pb-1 md:leading-[1.2]  mx-auto text-[28px] pb-1">Own your Meetings</div></div><div className="text-gray-300 text-sm font-inter font-normal md:text-lg mt-4 md:max-w-xl">We have done the heavy lifting, so, you don't have to do any work. Get a custom meeting URL to match your community or company url, and make the meeting yours, hassle-free.</div><div className="grid md:grid-cols-3 grid-cols-2 mt-10 gap-12"><div className="items-start flex-col flex "><img alt="Toggle" srcset="https://huddle01.com/_next/image?url=%2Fimages%2FToggle.png&amp;w=64&amp;q=75 1x, https://huddle01.com/_next/image?url=%2Fimages%2FToggle.png&amp;w=128&amp;q=75 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FToggle.png&amp;w=128&amp;q=75" width="60" height="10" decoding="async" data-nimg="1" className="object-cover" loading="lazy" /><span className="text-slate-400 font-normal font-inter  mt-2 text-base max-w-[200px] text-left undefined">Toggle features with just a few lines of code</span></div><div className="items-start flex-col flex "><img alt="Customize" srcset="https://huddle01.com/_next/image?url=%2Fimages%2FCustomize.png&amp;w=64&amp;q=75 1x, https://huddle01.com/_next/image?url=%2Fimages%2FCustomize.png&amp;w=128&amp;q=75 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FCustomize.png&amp;w=128&amp;q=75" width="60" height="10" decoding="async" data-nimg="1" className="object-cover" loading="lazy" /><span className="text-slate-400 font-normal font-inter  mt-2 text-base max-w-[200px] text-left undefined">Customize your subdomain UI</span></div><div className="items-start flex-col flex "><img alt="Lock" srcset="https://huddle01.com/_next/image?url=%2Fimages%2FLock.png&amp;w=64&amp;q=75 1x, https://huddle01.com/_next/image?url=%2Fimages%2FLock.png&amp;w=128&amp;q=75 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FLock.png&amp;w=128&amp;q=75" width="60" height="10" decoding="async" data-nimg="1" className="object-cover" loading="lazy" /><span className="text-slate-400 font-normal font-inter  mt-2 text-base max-w-[200px] text-left undefined">Token-gate meetings on your custom URL</span></div>
+                  <div className="text-gray-400 font-inter font-medium text-sm mb-2">Custom Subdomain</div><div className="bg-gradient-to-r from-[#fff] via-[#fff]/80 to-[#9d9ea1]/50 bg-clip-text text-transparent md:text-6xl  font-bold font-polySans pb-1 md:leading-[1.2]  mx-auto text-[28px] pb-1">Own your Meetings</div></div><div className="text-gray-300 text-sm font-inter font-normal md:text-lg mt-4 md:max-w-xl">We have done the heavy lifting, so, you don't have to do any work. Get a custom meeting URL to match your community or company url, and make the meeting yours, hassle-free.</div><div className="grid md:grid-cols-3 grid-cols-2 mt-10 gap-12"><div className="items-start flex-col flex "><img alt="Toggle" srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FToggle.png&amp;w=64&amp;q=75 1x, https://huddle01.com/_next/image?url=%2Fimages%2FToggle.png&amp;w=128&amp;q=75 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FToggle.png&amp;w=128&amp;q=75" width="60" height="10" decoding="async" data-nimg="1" className="object-cover" loading="lazy" /><span className="text-slate-400 font-normal font-inter  mt-2 text-base max-w-[200px] text-left undefined">Toggle features with just a few lines of code</span></div><div className="items-start flex-col flex "><img alt="Customize" srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FCustomize.png&amp;w=64&amp;q=75 1x, https://huddle01.com/_next/image?url=%2Fimages%2FCustomize.png&amp;w=128&amp;q=75 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FCustomize.png&amp;w=128&amp;q=75" width="60" height="10" decoding="async" data-nimg="1" className="object-cover" loading="lazy" /><span className="text-slate-400 font-normal font-inter  mt-2 text-base max-w-[200px] text-left undefined">Customize your subdomain UI</span></div><div className="items-start flex-col flex "><img alt="Lock" srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FLock.png&amp;w=64&amp;q=75 1x, https://huddle01.com/_next/image?url=%2Fimages%2FLock.png&amp;w=128&amp;q=75 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FLock.png&amp;w=128&amp;q=75" width="60" height="10" decoding="async" data-nimg="1" className="object-cover" loading="lazy" /><span className="text-slate-400 font-normal font-inter  mt-2 text-base max-w-[200px] text-left undefined">Token-gate meetings on your custom URL</span></div>
                   </div>
                 </div>
-                <img alt="subdomain" srcset="https://huddle01.com/_next/image?url=%2Fimages%2FSubdomain.png&amp;w=640&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FSubdomain.png&amp;w=1200&amp;q=100 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FSubdomain.png&amp;w=1200&amp;q=100" width="600" height="100" decoding="async" data-nimg="1" className="md:mt-0 mt-4" /></div>
+                <img alt="subdomain" srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FSubdomain.png&amp;w=640&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FSubdomain.png&amp;w=1200&amp;q=100 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FSubdomain.png&amp;w=1200&amp;q=100" width="600" height="100" decoding="async" data-nimg="1" className="md:mt-0 mt-4" /></div>
               <button className="mt-12 flex items-center justify-center border border-custom-4 hover:bg-custom-5 transition duration-300 ease-in-out  bg-custom-3 rounded-lg py-3 px-5 w-full md:w-52 font-semibold" type="button">
                 <span className="text-center font-inter text-base text-gray-300">Contact Us</span>
               </button>
@@ -1374,7 +1374,7 @@ const Landing = () => {
                 <button className="bg-custom-3 border border-custom-4 py-3 md:w-56 w-full flex items-center justify-center rounded-lg hover:bg-custom-5 transition duration-300 ease-in-out " type="button">
                   <span className="mr-3 text-gray-300 text-base font-medium font-inter">Contact Us</span>
                   <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M3.33337 10H16.6667M16.6667 10L11.6667 5M16.6667 10L11.6667 15" stroke="#FCFCFD" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M3.33337 10H16.6667M16.6667 10L11.6667 5M16.6667 10L11.6667 15" stroke="#FCFCFD" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>
                   </svg>
                 </button>
               </div>

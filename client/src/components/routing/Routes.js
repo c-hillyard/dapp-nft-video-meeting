@@ -8,6 +8,8 @@ import Product from '../layout/Product'
 import Protocol from '../layout/Protocol'
 import ContactUs from '../layout/ContactUs'
 import Docs from '../layout/docs/index'
+// import Dashboard from '../layout/admin/index'
+import Dashboard from '../layout/Dashboard'
 
 const Routes = () => {
   return (
@@ -20,6 +22,7 @@ const Routes = () => {
         <Route exact path='/protocol' component={Protocol} />
         <Route exact path='/contact' component={ContactUs} />
         <Route exact path='/docs' component={Docs} />
+        <Route path='/dashboard' component={Dashboard} />
         <Route component={NotFound} />
       </Switch>
     </section>

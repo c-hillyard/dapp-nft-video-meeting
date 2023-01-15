@@ -18,7 +18,7 @@ const ContactUs = () => {
               </div>
               <div className="grid md:grid-cols-3 gap-12 grid-cols-1">
                 <div className="border border-custom-5 rounded-2xl p-6 "><img alt=""
-                  srcset="https://huddle01.com/_next/image?url=%2Fimages%2FContact%2Fphone.png&amp;w=96&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FContact%2Fphone.png&amp;w=256&amp;q=100 2x"
+                  srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FContact%2Fphone.png&amp;w=96&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FContact%2Fphone.png&amp;w=256&amp;q=100 2x"
                   src="https://huddle01.com/_next/image?url=%2Fimages%2FContact%2Fphone.png&amp;w=256&amp;q=100" width="70" height="50"
                   decoding="async" data-nimg="1" />
                   <div className="mt-8 mb-4">
@@ -31,7 +31,7 @@ const ContactUs = () => {
                       Meeting</span></button>
                 </div>
                 <div className="border border-custom-5 rounded-2xl p-6 "><img alt=""
-                  srcset="https://huddle01.com/_next/image?url=%2Fimages%2FContact%2Fmsg.png&amp;w=96&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FContact%2Fmsg.png&amp;w=256&amp;q=100 2x"
+                  srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FContact%2Fmsg.png&amp;w=96&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FContact%2Fmsg.png&amp;w=256&amp;q=100 2x"
                   src="https://huddle01.com/_next/image?url=%2Fimages%2FContact%2Fmsg.png&amp;w=256&amp;q=100" width="70" height="50"
                   decoding="async" data-nimg="1" />
                   <div className="mt-8 mb-4">
@@ -43,7 +43,7 @@ const ContactUs = () => {
                     a message</a>
                 </div>
                 <div className="border border-custom-5 rounded-2xl p-6 "><img alt=""
-                  srcset="https://huddle01.com/_next/image?url=%2Fimages%2FContact%2Ffaq.png&amp;w=96&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FContact%2Ffaq.png&amp;w=256&amp;q=100 2x"
+                  srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FContact%2Ffaq.png&amp;w=96&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FContact%2Ffaq.png&amp;w=256&amp;q=100 2x"
                   src="https://huddle01.com/_next/image?url=%2Fimages%2FContact%2Ffaq.png&amp;w=256&amp;q=100" width="70" height="50"
                   decoding="async" data-nimg="1" />
                   <div className="mt-8 mb-4">
@@ -64,19 +64,19 @@ const ContactUs = () => {
               </div>
               <div className="grid md:grid-cols-4 gap-6 grid-cols-2">
                 <div className="bg-custom-2 backdrop-blur-2xl rounded-2xl flex items-center w-full justify-center flex-col cursor-pointer mx-auto py-4 md:py-8 hover:bg-custom-8 transition-all duration-300 ease-in-out" role="presentation">
-                  <img alt="Twitter" srcset="https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FTwitter.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FTwitter.png&amp;w=640&amp;q=100 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FTwitter.png&amp;w=640&amp;q=100" width="65" height="50" decoding="async" data-nimg="1" className="object-contain" loading="lazy" />
+                  <img alt="Twitter" srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FTwitter.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FTwitter.png&amp;w=640&amp;q=100 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FTwitter.png&amp;w=640&amp;q=100" width="65" height="50" decoding="async" data-nimg="1" className="object-contain" loading="lazy" />
                   <div className=" text-gray-400 font-inter font-medium text-lg mt-4">Twitter</div>
                 </div>
                 <div className="bg-custom-2 backdrop-blur-2xl rounded-2xl flex items-center w-full justify-center flex-col cursor-pointer mx-auto py-4 md:py-8 hover:bg-custom-8 transition-all duration-300 ease-in-out" role="presentation">
-                  <img alt="Discord" srcset="https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FDiscord.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FDiscord.png&amp;w=640&amp;q=100 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FDiscord.png&amp;w=640&amp;q=100" width="65" height="50" decoding="async" data-nimg="1" className="object-contain" loading="lazy" />
+                  <img alt="Discord" srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FDiscord.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FDiscord.png&amp;w=640&amp;q=100 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FDiscord.png&amp;w=640&amp;q=100" width="65" height="50" decoding="async" data-nimg="1" className="object-contain" loading="lazy" />
                   <div className=" text-gray-400 font-inter font-medium text-lg mt-4">Discord</div>
                 </div>
                 <div className="bg-custom-2 backdrop-blur-2xl rounded-2xl flex items-center w-full justify-center flex-col cursor-pointer mx-auto py-4 md:py-8 hover:bg-custom-8 transition-all duration-300 ease-in-out" role="presentation">
-                  <img alt="Linkedin" srcset="https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FLinkedin.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FLinkedin.png&amp;w=640&amp;q=100 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FLinkedin.png&amp;w=640&amp;q=100" width="65" height="50" decoding="async" data-nimg="1" className="object-contain" loading="lazy" />
+                  <img alt="Linkedin" srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FLinkedin.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FLinkedin.png&amp;w=640&amp;q=100 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FLinkedin.png&amp;w=640&amp;q=100" width="65" height="50" decoding="async" data-nimg="1" className="object-contain" loading="lazy" />
                   <div className=" text-gray-400 font-inter font-medium text-lg mt-4">Linkedin</div>
                 </div>
                 <div className="bg-custom-2 backdrop-blur-2xl rounded-2xl flex items-center w-full justify-center flex-col cursor-pointer mx-auto py-4 md:py-8 hover:bg-custom-8 transition-all duration-300 ease-in-out" role="presentation">
-                  <img alt="Substack" srcset="https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FSubstack.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FSubstack.png&amp;w=640&amp;q=100 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FSubstack.png&amp;w=640&amp;q=100" width="65" height="50" decoding="async" data-nimg="1" className="object-contain" loading="lazy" />
+                  <img alt="Substack" srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FSubstack.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FSubstack.png&amp;w=640&amp;q=100 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FSubstack.png&amp;w=640&amp;q=100" width="65" height="50" decoding="async" data-nimg="1" className="object-contain" loading="lazy" />
                   <div className=" text-gray-400 font-inter font-medium text-lg mt-4">Substack</div>
                 </div>
               </div>

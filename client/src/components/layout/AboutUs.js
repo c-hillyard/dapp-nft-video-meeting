@@ -13,7 +13,7 @@ const AboutUs = () => {
             <div
               className="bg-[url('/images/NewAbout.png')] bg-no-repeat md:bg-contain bg-cover bg-center md:bg-top h-full flex flex-col items-center justify-center md:py-24 py-16 px-4 md:px-0">
               <img alt="logo"
-                srcset="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FAboutLogo.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FAboutLogo.png&amp;w=640&amp;q=100 2x"
+                srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FAboutLogo.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FAboutLogo.png&amp;w=640&amp;q=100 2x"
                 src="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FAboutLogo.png&amp;w=640&amp;q=100" width="65" height="100"
                 decoding="async" data-nimg="1" />
               <div className="text-center md:mt-20 mt-10 md:mb-9 mb-4 ">
@@ -49,7 +49,7 @@ const AboutUs = () => {
                 <div
                   className=" rounded-2xl p-6 md:h-72 flex flex-col items-start justify-between xl:w-[410px] mx-auto border cardStyles">
                   <img alt="icon"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FGetStarted%2F4.png&amp;w=96&amp;q=75 1x, https://huddle01.com/_next/image?url=%2Fimages%2FGetStarted%2F4.png&amp;w=256&amp;q=75 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FGetStarted%2F4.png&amp;w=96&amp;q=75 1x, https://huddle01.com/_next/image?url=%2Fimages%2FGetStarted%2F4.png&amp;w=256&amp;q=75 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FGetStarted%2F4.png&amp;w=256&amp;q=75" width="80" height="50"
                     decoding="async" data-nimg="1" className="object-contain" loading="lazy" />
                   <div className="">
@@ -64,13 +64,13 @@ const AboutUs = () => {
                       className="mr-2">Try Meeting for Free</span><svg width="21" height="20" viewBox="0 0 21 20" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                       <path d="M4.83332 10.0001H16.5M16.5 10.0001L10.6667 4.16675M16.5 10.0001L10.6667 15.8334"
-                        stroke="#4984FD" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"></path>
+                        stroke="#4984FD" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"></path>
                     </svg></button>
                 </div>
                 <div
                   className=" rounded-2xl p-6 md:h-72 flex flex-col items-start justify-between xl:w-[410px] mx-auto border cardStyles">
                   <img alt="icon"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FGetStarted%2F5.png&amp;w=96&amp;q=75 1x, https://huddle01.com/_next/image?url=%2Fimages%2FGetStarted%2F5.png&amp;w=256&amp;q=75 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FGetStarted%2F5.png&amp;w=96&amp;q=75 1x, https://huddle01.com/_next/image?url=%2Fimages%2FGetStarted%2F5.png&amp;w=256&amp;q=75 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FGetStarted%2F5.png&amp;w=256&amp;q=75" width="80" height="50"
                     decoding="async" data-nimg="1" className="object-contain" loading="lazy" />
                   <div className="">
@@ -85,13 +85,13 @@ const AboutUs = () => {
                       className="mr-2">Start Building</span><svg width="21" height="20" viewBox="0 0 21 20" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                       <path d="M4.83332 10.0001H16.5M16.5 10.0001L10.6667 4.16675M16.5 10.0001L10.6667 15.8334"
-                        stroke="#4984FD" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"></path>
+                        stroke="#4984FD" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"></path>
                     </svg></button>
                 </div>
                 <div
                   className=" rounded-2xl p-6 md:h-72 flex flex-col items-start justify-between xl:w-[410px] mx-auto border cardStyles">
                   <img alt="icon"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FGetStarted%2F6.png&amp;w=96&amp;q=75 1x, https://huddle01.com/_next/image?url=%2Fimages%2FGetStarted%2F6.png&amp;w=256&amp;q=75 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FGetStarted%2F6.png&amp;w=96&amp;q=75 1x, https://huddle01.com/_next/image?url=%2Fimages%2FGetStarted%2F6.png&amp;w=256&amp;q=75 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FGetStarted%2F6.png&amp;w=256&amp;q=75" width="80" height="50"
                     decoding="async" data-nimg="1" className="object-contain" loading="lazy" />
                   <div className="">
@@ -107,7 +107,7 @@ const AboutUs = () => {
                       className="mr-2">Read About It</span><svg width="21" height="20" viewBox="0 0 21 20" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                       <path d="M4.83332 10.0001H16.5M16.5 10.0001L10.6667 4.16675M16.5 10.0001L10.6667 15.8334"
-                        stroke="#4984FD" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"></path>
+                        stroke="#4984FD" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round"></path>
                     </svg></button>
                 </div>
               </div>
@@ -131,31 +131,31 @@ const AboutUs = () => {
                     the core, we’re building a dRTC (Decentralized real-time communication) engine that is</div>
                   <div className="grid md:grid-cols-2 grid-cols-1 mt-8 xl:gap-10 gap-7">
                     <div className="flex items-center"><img alt="Open"
-                      srcset="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F1.png&amp;w=64&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F1.png&amp;w=128&amp;q=100 2x"
+                      srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F1.png&amp;w=64&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F1.png&amp;w=128&amp;q=100 2x"
                       src="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F1.png&amp;w=128&amp;q=100" width="50" height="50"
                       decoding="async" data-nimg="1" loading="lazy" />
                       <div className="ml-5 text-gray-300 xl:text-lg text-sm font-normal font-inter">Open</div>
                     </div>
                     <div className="flex items-center"><img alt="Scalable"
-                      srcset="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F2.png&amp;w=64&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F2.png&amp;w=128&amp;q=100 2x"
+                      srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F2.png&amp;w=64&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F2.png&amp;w=128&amp;q=100 2x"
                       src="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F2.png&amp;w=128&amp;q=100" width="50" height="50"
                       decoding="async" data-nimg="1" loading="lazy" />
                       <div className="ml-5 text-gray-300 xl:text-lg text-sm font-normal font-inter">Scalable</div>
                     </div>
                     <div className="flex items-center"><img alt="Decentralized"
-                      srcset="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F3.png&amp;w=64&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F3.png&amp;w=128&amp;q=100 2x"
+                      srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F3.png&amp;w=64&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F3.png&amp;w=128&amp;q=100 2x"
                       src="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F3.png&amp;w=128&amp;q=100" width="50" height="50"
                       decoding="async" data-nimg="1" loading="lazy" />
                       <div className="ml-5 text-gray-300 xl:text-lg text-sm font-normal font-inter">Decentralized</div>
                     </div>
                     <div className="flex items-center"><img alt="End-to-End Encrypted"
-                      srcset="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F4.png&amp;w=64&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F4.png&amp;w=128&amp;q=100 2x"
+                      srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F4.png&amp;w=64&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F4.png&amp;w=128&amp;q=100 2x"
                       src="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F4.png&amp;w=128&amp;q=100" width="50" height="50"
                       decoding="async" data-nimg="1" loading="lazy" />
                       <div className="ml-5 text-gray-300 xl:text-lg text-sm font-normal font-inter">End-to-End Encrypted</div>
                     </div>
                     <div className="flex items-center"><img alt="Bottom-up Economy"
-                      srcset="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F5.png&amp;w=64&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F5.png&amp;w=128&amp;q=100 2x"
+                      srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F5.png&amp;w=64&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F5.png&amp;w=128&amp;q=100 2x"
                       src="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F5.png&amp;w=128&amp;q=100" width="50" height="50"
                       decoding="async" data-nimg="1" loading="lazy" />
                       <div className="ml-5 text-gray-300 xl:text-lg text-sm font-normal font-inter">Bottom-up Economy</div>
@@ -163,7 +163,7 @@ const AboutUs = () => {
                   </div>
                 </div>
               </div><img alt="protocol"
-                srcset="https://huddle01.com/_next/image?url=%2Fimages%2FProtocol.png&amp;w=828&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FProtocol.png&amp;w=1920&amp;q=100 2x"
+                srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FProtocol.png&amp;w=828&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FProtocol.png&amp;w=1920&amp;q=100 2x"
                 src="https://huddle01.com/_next/image?url=%2Fimages%2FProtocol.png&amp;w=1920&amp;q=100" width="770" height="100"
                 decoding="async" data-nimg="1" className="mt-9 md:mt-0" loading="lazy" />
               <div className=" block md:hidden">
@@ -172,31 +172,31 @@ const AboutUs = () => {
                   the core, we’re building a dRTC (Decentralized real-time communication) engine that is</div>
                 <div className="grid md:grid-cols-2 grid-cols-1 mt-8 xl:gap-10 gap-7">
                   <div className="flex items-center"><img alt="Open"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F1.png&amp;w=64&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F1.png&amp;w=128&amp;q=100 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F1.png&amp;w=64&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F1.png&amp;w=128&amp;q=100 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F1.png&amp;w=128&amp;q=100" width="60" height="50"
                     decoding="async" data-nimg="1" loading="lazy" />
                     <div className="ml-5 text-gray-300 xl:text-lg text-sm font-normal font-inter">Open</div>
                   </div>
                   <div className="flex items-center"><img alt="Scalable"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F2.png&amp;w=64&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F2.png&amp;w=128&amp;q=100 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F2.png&amp;w=64&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F2.png&amp;w=128&amp;q=100 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F2.png&amp;w=128&amp;q=100" width="60" height="50"
                     decoding="async" data-nimg="1" loading="lazy" />
                     <div className="ml-5 text-gray-300 xl:text-lg text-sm font-normal font-inter">Scalable</div>
                   </div>
                   <div className="flex items-center"><img alt="Decentralized"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F3.png&amp;w=64&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F3.png&amp;w=128&amp;q=100 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F3.png&amp;w=64&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F3.png&amp;w=128&amp;q=100 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F3.png&amp;w=128&amp;q=100" width="60" height="50"
                     decoding="async" data-nimg="1" loading="lazy" />
                     <div className="ml-5 text-gray-300 xl:text-lg text-sm font-normal font-inter">Decentralized</div>
                   </div>
                   <div className="flex items-center"><img alt="End-to-End Encrypted"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F4.png&amp;w=64&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F4.png&amp;w=128&amp;q=100 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F4.png&amp;w=64&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F4.png&amp;w=128&amp;q=100 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F4.png&amp;w=128&amp;q=100" width="60" height="50"
                     decoding="async" data-nimg="1" loading="lazy" />
                     <div className="ml-5 text-gray-300 xl:text-lg text-sm font-normal font-inter">End-to-End Encrypted</div>
                   </div>
                   <div className="flex items-center"><img alt="Bottom-up Economy"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F5.png&amp;w=64&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F5.png&amp;w=128&amp;q=100 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F5.png&amp;w=64&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F5.png&amp;w=128&amp;q=100 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2F5.png&amp;w=128&amp;q=100" width="60" height="50"
                     decoding="async" data-nimg="1" loading="lazy" />
                     <div className="ml-5 text-gray-300 xl:text-lg text-sm font-normal font-inter">Bottom-up Economy</div>
@@ -215,7 +215,7 @@ const AboutUs = () => {
                 <div
                   className="bg-custom-2 backdrop-blur-3xl rounded-lg flex items-center justify-center flex-col p-4 w-full mx-auto">
                   <img alt="Ayush Ranjan"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fayush.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fayush.jpg&amp;w=384&amp;q=100 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fayush.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fayush.jpg&amp;w=384&amp;q=100 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fayush.jpg&amp;w=384&amp;q=100" width="150"
                     height="100" decoding="async" data-nimg="1" className="rounded mb-4"
                   />
@@ -231,7 +231,7 @@ const AboutUs = () => {
                     </svg></div>
                     <div role="presentation" className="cursor-pointer"><svg width="20" height="20" viewBox="0 0 20 20"
                       fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_3474_72219)">
+                      <g clipPath="url(#clip0_3474_72219)">
                         <path
                           d="M18.5195 0H1.47656C0.660156 0 0 0.644531 0 1.44141V18.5547C0 19.3516 0.660156 20 1.47656 20H18.5195C19.3359 20 20 19.3516 20 18.5586V1.44141C20 0.644531 19.3359 0 18.5195 0ZM5.93359 17.043H2.96484V7.49609H5.93359V17.043ZM4.44922 6.19531C3.49609 6.19531 2.72656 5.42578 2.72656 4.47656C2.72656 3.52734 3.49609 2.75781 4.44922 2.75781C5.39844 2.75781 6.16797 3.52734 6.16797 4.47656C6.16797 5.42188 5.39844 6.19531 4.44922 6.19531ZM17.043 17.043H14.0781V12.4023C14.0781 11.2969 14.0586 9.87109 12.5352 9.87109C10.9922 9.87109 10.7578 11.0781 10.7578 12.3242V17.043H7.79688V7.49609H10.6406V8.80078H10.6797C11.0742 8.05078 12.043 7.25781 13.4844 7.25781C16.4883 7.25781 17.043 9.23438 17.043 11.8047V17.043Z"
                           fill="#98A2B3"></path>
@@ -247,7 +247,7 @@ const AboutUs = () => {
                 <div
                   className="bg-custom-2 backdrop-blur-3xl rounded-lg flex items-center justify-center flex-col p-4 w-full mx-auto">
                   <img alt="Susmit"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fsusmit.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fsusmit.jpg&amp;w=384&amp;q=100 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fsusmit.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fsusmit.jpg&amp;w=384&amp;q=100 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fsusmit.jpg&amp;w=384&amp;q=100" width="150"
                     height="100" decoding="async" data-nimg="1" className="rounded mb-4"
                   />
@@ -263,7 +263,7 @@ const AboutUs = () => {
                     </svg></div>
                     <div role="presentation" className="cursor-pointer"><svg width="20" height="20" viewBox="0 0 20 20"
                       fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_3474_72219)">
+                      <g clipPath="url(#clip0_3474_72219)">
                         <path
                           d="M18.5195 0H1.47656C0.660156 0 0 0.644531 0 1.44141V18.5547C0 19.3516 0.660156 20 1.47656 20H18.5195C19.3359 20 20 19.3516 20 18.5586V1.44141C20 0.644531 19.3359 0 18.5195 0ZM5.93359 17.043H2.96484V7.49609H5.93359V17.043ZM4.44922 6.19531C3.49609 6.19531 2.72656 5.42578 2.72656 4.47656C2.72656 3.52734 3.49609 2.75781 4.44922 2.75781C5.39844 2.75781 6.16797 3.52734 6.16797 4.47656C6.16797 5.42188 5.39844 6.19531 4.44922 6.19531ZM17.043 17.043H14.0781V12.4023C14.0781 11.2969 14.0586 9.87109 12.5352 9.87109C10.9922 9.87109 10.7578 11.0781 10.7578 12.3242V17.043H7.79688V7.49609H10.6406V8.80078H10.6797C11.0742 8.05078 12.043 7.25781 13.4844 7.25781C16.4883 7.25781 17.043 9.23438 17.043 11.8047V17.043Z"
                           fill="#98A2B3"></path>
@@ -279,7 +279,7 @@ const AboutUs = () => {
                 <div
                   className="bg-custom-2 backdrop-blur-3xl rounded-lg flex items-center justify-center flex-col p-4 w-full mx-auto">
                   <img alt="Shashank"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fshashank.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fshashank.jpg&amp;w=384&amp;q=100 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fshashank.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fshashank.jpg&amp;w=384&amp;q=100 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fshashank.jpg&amp;w=384&amp;q=100" width="150"
                     height="100" decoding="async" data-nimg="1" className="rounded mb-4"
                   />
@@ -295,7 +295,7 @@ const AboutUs = () => {
                     </svg></div>
                     <div role="presentation" className="cursor-pointer"><svg width="20" height="20" viewBox="0 0 20 20"
                       fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_3474_72219)">
+                      <g clipPath="url(#clip0_3474_72219)">
                         <path
                           d="M18.5195 0H1.47656C0.660156 0 0 0.644531 0 1.44141V18.5547C0 19.3516 0.660156 20 1.47656 20H18.5195C19.3359 20 20 19.3516 20 18.5586V1.44141C20 0.644531 19.3359 0 18.5195 0ZM5.93359 17.043H2.96484V7.49609H5.93359V17.043ZM4.44922 6.19531C3.49609 6.19531 2.72656 5.42578 2.72656 4.47656C2.72656 3.52734 3.49609 2.75781 4.44922 2.75781C5.39844 2.75781 6.16797 3.52734 6.16797 4.47656C6.16797 5.42188 5.39844 6.19531 4.44922 6.19531ZM17.043 17.043H14.0781V12.4023C14.0781 11.2969 14.0586 9.87109 12.5352 9.87109C10.9922 9.87109 10.7578 11.0781 10.7578 12.3242V17.043H7.79688V7.49609H10.6406V8.80078H10.6797C11.0742 8.05078 12.043 7.25781 13.4844 7.25781C16.4883 7.25781 17.043 9.23438 17.043 11.8047V17.043Z"
                           fill="#98A2B3"></path>
@@ -311,7 +311,7 @@ const AboutUs = () => {
                 <div
                   className="bg-custom-2 backdrop-blur-3xl rounded-lg flex items-center justify-center flex-col p-4 w-full mx-auto">
                   <img alt="Daria"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fdaria.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fdaria.jpg&amp;w=384&amp;q=100 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fdaria.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fdaria.jpg&amp;w=384&amp;q=100 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fdaria.jpg&amp;w=384&amp;q=100" width="150"
                     height="100" decoding="async" data-nimg="1" className="rounded mb-4"
                   />
@@ -327,7 +327,7 @@ const AboutUs = () => {
                     </svg></div>
                     <div role="presentation" className="cursor-pointer"><svg width="20" height="20" viewBox="0 0 20 20"
                       fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_3474_72219)">
+                      <g clipPath="url(#clip0_3474_72219)">
                         <path
                           d="M18.5195 0H1.47656C0.660156 0 0 0.644531 0 1.44141V18.5547C0 19.3516 0.660156 20 1.47656 20H18.5195C19.3359 20 20 19.3516 20 18.5586V1.44141C20 0.644531 19.3359 0 18.5195 0ZM5.93359 17.043H2.96484V7.49609H5.93359V17.043ZM4.44922 6.19531C3.49609 6.19531 2.72656 5.42578 2.72656 4.47656C2.72656 3.52734 3.49609 2.75781 4.44922 2.75781C5.39844 2.75781 6.16797 3.52734 6.16797 4.47656C6.16797 5.42188 5.39844 6.19531 4.44922 6.19531ZM17.043 17.043H14.0781V12.4023C14.0781 11.2969 14.0586 9.87109 12.5352 9.87109C10.9922 9.87109 10.7578 11.0781 10.7578 12.3242V17.043H7.79688V7.49609H10.6406V8.80078H10.6797C11.0742 8.05078 12.043 7.25781 13.4844 7.25781C16.4883 7.25781 17.043 9.23438 17.043 11.8047V17.043Z"
                           fill="#98A2B3"></path>
@@ -343,7 +343,7 @@ const AboutUs = () => {
                 <div
                   className="bg-custom-2 backdrop-blur-3xl rounded-lg flex items-center justify-center flex-col p-4 w-full mx-auto">
                   <img alt="Deepanshu"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fdeepanshu.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fdeepanshu.jpg&amp;w=384&amp;q=100 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fdeepanshu.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fdeepanshu.jpg&amp;w=384&amp;q=100 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fdeepanshu.jpg&amp;w=384&amp;q=100" width="150"
                     height="100" decoding="async" data-nimg="1" className="rounded mb-4"
                   />
@@ -359,7 +359,7 @@ const AboutUs = () => {
                     </svg></div>
                     <div role="presentation" className="cursor-pointer"><svg width="20" height="20" viewBox="0 0 20 20"
                       fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_3474_72219)">
+                      <g clipPath="url(#clip0_3474_72219)">
                         <path
                           d="M18.5195 0H1.47656C0.660156 0 0 0.644531 0 1.44141V18.5547C0 19.3516 0.660156 20 1.47656 20H18.5195C19.3359 20 20 19.3516 20 18.5586V1.44141C20 0.644531 19.3359 0 18.5195 0ZM5.93359 17.043H2.96484V7.49609H5.93359V17.043ZM4.44922 6.19531C3.49609 6.19531 2.72656 5.42578 2.72656 4.47656C2.72656 3.52734 3.49609 2.75781 4.44922 2.75781C5.39844 2.75781 6.16797 3.52734 6.16797 4.47656C6.16797 5.42188 5.39844 6.19531 4.44922 6.19531ZM17.043 17.043H14.0781V12.4023C14.0781 11.2969 14.0586 9.87109 12.5352 9.87109C10.9922 9.87109 10.7578 11.0781 10.7578 12.3242V17.043H7.79688V7.49609H10.6406V8.80078H10.6797C11.0742 8.05078 12.043 7.25781 13.4844 7.25781C16.4883 7.25781 17.043 9.23438 17.043 11.8047V17.043Z"
                           fill="#98A2B3"></path>
@@ -375,7 +375,7 @@ const AboutUs = () => {
                 <div
                   className="bg-custom-2 backdrop-blur-3xl rounded-lg flex items-center justify-center flex-col p-4 w-full mx-auto">
                   <img alt="Akshit"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fakshit.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fakshit.jpg&amp;w=384&amp;q=100 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fakshit.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fakshit.jpg&amp;w=384&amp;q=100 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fakshit.jpg&amp;w=384&amp;q=100" width="150"
                     height="100" decoding="async" data-nimg="1" className="rounded mb-4"
                   />
@@ -390,7 +390,7 @@ const AboutUs = () => {
                     </svg></div>
                     <div role="presentation" className="cursor-pointer"><svg width="20" height="20" viewBox="0 0 20 20"
                       fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_3474_72219)">
+                      <g clipPath="url(#clip0_3474_72219)">
                         <path
                           d="M18.5195 0H1.47656C0.660156 0 0 0.644531 0 1.44141V18.5547C0 19.3516 0.660156 20 1.47656 20H18.5195C19.3359 20 20 19.3516 20 18.5586V1.44141C20 0.644531 19.3359 0 18.5195 0ZM5.93359 17.043H2.96484V7.49609H5.93359V17.043ZM4.44922 6.19531C3.49609 6.19531 2.72656 5.42578 2.72656 4.47656C2.72656 3.52734 3.49609 2.75781 4.44922 2.75781C5.39844 2.75781 6.16797 3.52734 6.16797 4.47656C6.16797 5.42188 5.39844 6.19531 4.44922 6.19531ZM17.043 17.043H14.0781V12.4023C14.0781 11.2969 14.0586 9.87109 12.5352 9.87109C10.9922 9.87109 10.7578 11.0781 10.7578 12.3242V17.043H7.79688V7.49609H10.6406V8.80078H10.6797C11.0742 8.05078 12.043 7.25781 13.4844 7.25781C16.4883 7.25781 17.043 9.23438 17.043 11.8047V17.043Z"
                           fill="#98A2B3"></path>
@@ -406,7 +406,7 @@ const AboutUs = () => {
                 <div
                   className="bg-custom-2 backdrop-blur-3xl rounded-lg flex items-center justify-center flex-col p-4 w-full mx-auto">
                   <img alt="Vaibhav"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fvaibhav.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fvaibhav.jpg&amp;w=384&amp;q=100 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fvaibhav.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fvaibhav.jpg&amp;w=384&amp;q=100 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fvaibhav.jpg&amp;w=384&amp;q=100" width="150"
                     height="100" decoding="async" data-nimg="1" className="rounded mb-4"
                   />
@@ -422,7 +422,7 @@ const AboutUs = () => {
                     </svg></div>
                     <div role="presentation" className="cursor-pointer"><svg width="20" height="20" viewBox="0 0 20 20"
                       fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_3474_72219)">
+                      <g clipPath="url(#clip0_3474_72219)">
                         <path
                           d="M18.5195 0H1.47656C0.660156 0 0 0.644531 0 1.44141V18.5547C0 19.3516 0.660156 20 1.47656 20H18.5195C19.3359 20 20 19.3516 20 18.5586V1.44141C20 0.644531 19.3359 0 18.5195 0ZM5.93359 17.043H2.96484V7.49609H5.93359V17.043ZM4.44922 6.19531C3.49609 6.19531 2.72656 5.42578 2.72656 4.47656C2.72656 3.52734 3.49609 2.75781 4.44922 2.75781C5.39844 2.75781 6.16797 3.52734 6.16797 4.47656C6.16797 5.42188 5.39844 6.19531 4.44922 6.19531ZM17.043 17.043H14.0781V12.4023C14.0781 11.2969 14.0586 9.87109 12.5352 9.87109C10.9922 9.87109 10.7578 11.0781 10.7578 12.3242V17.043H7.79688V7.49609H10.6406V8.80078H10.6797C11.0742 8.05078 12.043 7.25781 13.4844 7.25781C16.4883 7.25781 17.043 9.23438 17.043 11.8047V17.043Z"
                           fill="#98A2B3"></path>
@@ -438,7 +438,7 @@ const AboutUs = () => {
                 <div
                   className="bg-custom-2 backdrop-blur-3xl rounded-lg flex items-center justify-center flex-col p-4 w-full mx-auto">
                   <img alt="Ramit"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Framit.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Framit.jpg&amp;w=384&amp;q=100 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Framit.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Framit.jpg&amp;w=384&amp;q=100 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Framit.jpg&amp;w=384&amp;q=100" width="150"
                     height="100" decoding="async" data-nimg="1" className="rounded mb-4"
                   />
@@ -453,7 +453,7 @@ const AboutUs = () => {
                     </svg></div>
                     <div role="presentation" className="cursor-pointer"><svg width="20" height="20" viewBox="0 0 20 20"
                       fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_3474_72219)">
+                      <g clipPath="url(#clip0_3474_72219)">
                         <path
                           d="M18.5195 0H1.47656C0.660156 0 0 0.644531 0 1.44141V18.5547C0 19.3516 0.660156 20 1.47656 20H18.5195C19.3359 20 20 19.3516 20 18.5586V1.44141C20 0.644531 19.3359 0 18.5195 0ZM5.93359 17.043H2.96484V7.49609H5.93359V17.043ZM4.44922 6.19531C3.49609 6.19531 2.72656 5.42578 2.72656 4.47656C2.72656 3.52734 3.49609 2.75781 4.44922 2.75781C5.39844 2.75781 6.16797 3.52734 6.16797 4.47656C6.16797 5.42188 5.39844 6.19531 4.44922 6.19531ZM17.043 17.043H14.0781V12.4023C14.0781 11.2969 14.0586 9.87109 12.5352 9.87109C10.9922 9.87109 10.7578 11.0781 10.7578 12.3242V17.043H7.79688V7.49609H10.6406V8.80078H10.6797C11.0742 8.05078 12.043 7.25781 13.4844 7.25781C16.4883 7.25781 17.043 9.23438 17.043 11.8047V17.043Z"
                           fill="#98A2B3"></path>
@@ -469,7 +469,7 @@ const AboutUs = () => {
                 <div
                   className="bg-custom-2 backdrop-blur-3xl rounded-lg flex items-center justify-center flex-col p-4 w-full mx-auto">
                   <img alt="Harsh"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fharsh.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fharsh.jpg&amp;w=384&amp;q=100 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fharsh.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fharsh.jpg&amp;w=384&amp;q=100 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fharsh.jpg&amp;w=384&amp;q=100" width="150"
                     height="100" decoding="async" data-nimg="1" className="rounded mb-4"
                   />
@@ -484,7 +484,7 @@ const AboutUs = () => {
                     </svg></div>
                     <div role="presentation" className="cursor-pointer"><svg width="20" height="20" viewBox="0 0 20 20"
                       fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_3474_72219)">
+                      <g clipPath="url(#clip0_3474_72219)">
                         <path
                           d="M18.5195 0H1.47656C0.660156 0 0 0.644531 0 1.44141V18.5547C0 19.3516 0.660156 20 1.47656 20H18.5195C19.3359 20 20 19.3516 20 18.5586V1.44141C20 0.644531 19.3359 0 18.5195 0ZM5.93359 17.043H2.96484V7.49609H5.93359V17.043ZM4.44922 6.19531C3.49609 6.19531 2.72656 5.42578 2.72656 4.47656C2.72656 3.52734 3.49609 2.75781 4.44922 2.75781C5.39844 2.75781 6.16797 3.52734 6.16797 4.47656C6.16797 5.42188 5.39844 6.19531 4.44922 6.19531ZM17.043 17.043H14.0781V12.4023C14.0781 11.2969 14.0586 9.87109 12.5352 9.87109C10.9922 9.87109 10.7578 11.0781 10.7578 12.3242V17.043H7.79688V7.49609H10.6406V8.80078H10.6797C11.0742 8.05078 12.043 7.25781 13.4844 7.25781C16.4883 7.25781 17.043 9.23438 17.043 11.8047V17.043Z"
                           fill="#98A2B3"></path>
@@ -500,7 +500,7 @@ const AboutUs = () => {
                 <div
                   className="bg-custom-2 backdrop-blur-3xl rounded-lg flex items-center justify-center flex-col p-4 w-full mx-auto">
                   <img alt="Max"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fmax.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fmax.jpg&amp;w=384&amp;q=100 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fmax.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fmax.jpg&amp;w=384&amp;q=100 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fmax.jpg&amp;w=384&amp;q=100" width="150" height="100"
                     decoding="async" data-nimg="1" className="rounded mb-4"
                   />
@@ -516,7 +516,7 @@ const AboutUs = () => {
                     </svg></div>
                     <div role="presentation" className="cursor-pointer"><svg width="20" height="20" viewBox="0 0 20 20"
                       fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_3474_72219)">
+                      <g clipPath="url(#clip0_3474_72219)">
                         <path
                           d="M18.5195 0H1.47656C0.660156 0 0 0.644531 0 1.44141V18.5547C0 19.3516 0.660156 20 1.47656 20H18.5195C19.3359 20 20 19.3516 20 18.5586V1.44141C20 0.644531 19.3359 0 18.5195 0ZM5.93359 17.043H2.96484V7.49609H5.93359V17.043ZM4.44922 6.19531C3.49609 6.19531 2.72656 5.42578 2.72656 4.47656C2.72656 3.52734 3.49609 2.75781 4.44922 2.75781C5.39844 2.75781 6.16797 3.52734 6.16797 4.47656C6.16797 5.42188 5.39844 6.19531 4.44922 6.19531ZM17.043 17.043H14.0781V12.4023C14.0781 11.2969 14.0586 9.87109 12.5352 9.87109C10.9922 9.87109 10.7578 11.0781 10.7578 12.3242V17.043H7.79688V7.49609H10.6406V8.80078H10.6797C11.0742 8.05078 12.043 7.25781 13.4844 7.25781C16.4883 7.25781 17.043 9.23438 17.043 11.8047V17.043Z"
                           fill="#98A2B3"></path>
@@ -532,7 +532,7 @@ const AboutUs = () => {
                 <div
                   className="bg-custom-2 backdrop-blur-3xl rounded-lg flex items-center justify-center flex-col p-4 w-full mx-auto">
                   <img alt="Serg"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fserg.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fserg.jpg&amp;w=384&amp;q=100 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fserg.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fserg.jpg&amp;w=384&amp;q=100 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fserg.jpg&amp;w=384&amp;q=100" width="150"
                     height="100" decoding="async" data-nimg="1" className="rounded mb-4"
                   />
@@ -548,7 +548,7 @@ const AboutUs = () => {
                     </svg></div>
                     <div role="presentation" className="cursor-pointer"><svg width="20" height="20" viewBox="0 0 20 20"
                       fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_3474_72219)">
+                      <g clipPath="url(#clip0_3474_72219)">
                         <path
                           d="M18.5195 0H1.47656C0.660156 0 0 0.644531 0 1.44141V18.5547C0 19.3516 0.660156 20 1.47656 20H18.5195C19.3359 20 20 19.3516 20 18.5586V1.44141C20 0.644531 19.3359 0 18.5195 0ZM5.93359 17.043H2.96484V7.49609H5.93359V17.043ZM4.44922 6.19531C3.49609 6.19531 2.72656 5.42578 2.72656 4.47656C2.72656 3.52734 3.49609 2.75781 4.44922 2.75781C5.39844 2.75781 6.16797 3.52734 6.16797 4.47656C6.16797 5.42188 5.39844 6.19531 4.44922 6.19531ZM17.043 17.043H14.0781V12.4023C14.0781 11.2969 14.0586 9.87109 12.5352 9.87109C10.9922 9.87109 10.7578 11.0781 10.7578 12.3242V17.043H7.79688V7.49609H10.6406V8.80078H10.6797C11.0742 8.05078 12.043 7.25781 13.4844 7.25781C16.4883 7.25781 17.043 9.23438 17.043 11.8047V17.043Z"
                           fill="#98A2B3"></path>
@@ -564,7 +564,7 @@ const AboutUs = () => {
                 <div
                   className="bg-custom-2 backdrop-blur-3xl rounded-lg flex items-center justify-center flex-col p-4 w-full mx-auto">
                   <img alt="Yashvendra"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fyashvendra.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fyashvendra.jpg&amp;w=384&amp;q=100 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fyashvendra.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fyashvendra.jpg&amp;w=384&amp;q=100 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fyashvendra.jpg&amp;w=384&amp;q=100" width="150"
                     height="100" decoding="async" data-nimg="1" className="rounded mb-4"
                   />
@@ -580,7 +580,7 @@ const AboutUs = () => {
                     </svg></div>
                     <div role="presentation" className="cursor-pointer"><svg width="20" height="20" viewBox="0 0 20 20"
                       fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_3474_72219)">
+                      <g clipPath="url(#clip0_3474_72219)">
                         <path
                           d="M18.5195 0H1.47656C0.660156 0 0 0.644531 0 1.44141V18.5547C0 19.3516 0.660156 20 1.47656 20H18.5195C19.3359 20 20 19.3516 20 18.5586V1.44141C20 0.644531 19.3359 0 18.5195 0ZM5.93359 17.043H2.96484V7.49609H5.93359V17.043ZM4.44922 6.19531C3.49609 6.19531 2.72656 5.42578 2.72656 4.47656C2.72656 3.52734 3.49609 2.75781 4.44922 2.75781C5.39844 2.75781 6.16797 3.52734 6.16797 4.47656C6.16797 5.42188 5.39844 6.19531 4.44922 6.19531ZM17.043 17.043H14.0781V12.4023C14.0781 11.2969 14.0586 9.87109 12.5352 9.87109C10.9922 9.87109 10.7578 11.0781 10.7578 12.3242V17.043H7.79688V7.49609H10.6406V8.80078H10.6797C11.0742 8.05078 12.043 7.25781 13.4844 7.25781C16.4883 7.25781 17.043 9.23438 17.043 11.8047V17.043Z"
                           fill="#98A2B3"></path>
@@ -596,7 +596,7 @@ const AboutUs = () => {
                 <div
                   className="bg-custom-2 backdrop-blur-3xl rounded-lg flex items-center justify-center flex-col p-4 w-full mx-auto">
                   <img alt="Parnika"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fparnika.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fparnika.jpg&amp;w=384&amp;q=100 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fparnika.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fparnika.jpg&amp;w=384&amp;q=100 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fparnika.jpg&amp;w=384&amp;q=100" width="150"
                     height="100" decoding="async" data-nimg="1" className="rounded mb-4"
                   />
@@ -612,7 +612,7 @@ const AboutUs = () => {
                     </svg></div>
                     <div role="presentation" className="cursor-pointer"><svg width="20" height="20" viewBox="0 0 20 20"
                       fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_3474_72219)">
+                      <g clipPath="url(#clip0_3474_72219)">
                         <path
                           d="M18.5195 0H1.47656C0.660156 0 0 0.644531 0 1.44141V18.5547C0 19.3516 0.660156 20 1.47656 20H18.5195C19.3359 20 20 19.3516 20 18.5586V1.44141C20 0.644531 19.3359 0 18.5195 0ZM5.93359 17.043H2.96484V7.49609H5.93359V17.043ZM4.44922 6.19531C3.49609 6.19531 2.72656 5.42578 2.72656 4.47656C2.72656 3.52734 3.49609 2.75781 4.44922 2.75781C5.39844 2.75781 6.16797 3.52734 6.16797 4.47656C6.16797 5.42188 5.39844 6.19531 4.44922 6.19531ZM17.043 17.043H14.0781V12.4023C14.0781 11.2969 14.0586 9.87109 12.5352 9.87109C10.9922 9.87109 10.7578 11.0781 10.7578 12.3242V17.043H7.79688V7.49609H10.6406V8.80078H10.6797C11.0742 8.05078 12.043 7.25781 13.4844 7.25781C16.4883 7.25781 17.043 9.23438 17.043 11.8047V17.043Z"
                           fill="#98A2B3"></path>
@@ -628,7 +628,7 @@ const AboutUs = () => {
                 <div
                   className="bg-custom-2 backdrop-blur-3xl rounded-lg flex items-center justify-center flex-col p-4 w-full mx-auto">
                   <img alt="Aditya"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Faditya.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Faditya.jpg&amp;w=384&amp;q=100 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Faditya.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Faditya.jpg&amp;w=384&amp;q=100 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Faditya.jpg&amp;w=384&amp;q=100" width="150"
                     height="100" decoding="async" data-nimg="1" className="rounded mb-4"
                   />
@@ -643,7 +643,7 @@ const AboutUs = () => {
                     </svg></div>
                     <div role="presentation" className="cursor-pointer"><svg width="20" height="20" viewBox="0 0 20 20"
                       fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_3474_72219)">
+                      <g clipPath="url(#clip0_3474_72219)">
                         <path
                           d="M18.5195 0H1.47656C0.660156 0 0 0.644531 0 1.44141V18.5547C0 19.3516 0.660156 20 1.47656 20H18.5195C19.3359 20 20 19.3516 20 18.5586V1.44141C20 0.644531 19.3359 0 18.5195 0ZM5.93359 17.043H2.96484V7.49609H5.93359V17.043ZM4.44922 6.19531C3.49609 6.19531 2.72656 5.42578 2.72656 4.47656C2.72656 3.52734 3.49609 2.75781 4.44922 2.75781C5.39844 2.75781 6.16797 3.52734 6.16797 4.47656C6.16797 5.42188 5.39844 6.19531 4.44922 6.19531ZM17.043 17.043H14.0781V12.4023C14.0781 11.2969 14.0586 9.87109 12.5352 9.87109C10.9922 9.87109 10.7578 11.0781 10.7578 12.3242V17.043H7.79688V7.49609H10.6406V8.80078H10.6797C11.0742 8.05078 12.043 7.25781 13.4844 7.25781C16.4883 7.25781 17.043 9.23438 17.043 11.8047V17.043Z"
                           fill="#98A2B3"></path>
@@ -659,7 +659,7 @@ const AboutUs = () => {
                 <div
                   className="bg-custom-2 backdrop-blur-3xl rounded-lg flex items-center justify-center flex-col p-4 w-full mx-auto">
                   <img alt="Arko"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Farko.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Farko.jpg&amp;w=384&amp;q=100 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Farko.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Farko.jpg&amp;w=384&amp;q=100 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Farko.jpg&amp;w=384&amp;q=100" width="150"
                     height="100" decoding="async" data-nimg="1" className="rounded mb-4"
                   />
@@ -675,7 +675,7 @@ const AboutUs = () => {
                     </svg></div>
                     <div role="presentation" className="cursor-pointer"><svg width="20" height="20" viewBox="0 0 20 20"
                       fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_3474_72219)">
+                      <g clipPath="url(#clip0_3474_72219)">
                         <path
                           d="M18.5195 0H1.47656C0.660156 0 0 0.644531 0 1.44141V18.5547C0 19.3516 0.660156 20 1.47656 20H18.5195C19.3359 20 20 19.3516 20 18.5586V1.44141C20 0.644531 19.3359 0 18.5195 0ZM5.93359 17.043H2.96484V7.49609H5.93359V17.043ZM4.44922 6.19531C3.49609 6.19531 2.72656 5.42578 2.72656 4.47656C2.72656 3.52734 3.49609 2.75781 4.44922 2.75781C5.39844 2.75781 6.16797 3.52734 6.16797 4.47656C6.16797 5.42188 5.39844 6.19531 4.44922 6.19531ZM17.043 17.043H14.0781V12.4023C14.0781 11.2969 14.0586 9.87109 12.5352 9.87109C10.9922 9.87109 10.7578 11.0781 10.7578 12.3242V17.043H7.79688V7.49609H10.6406V8.80078H10.6797C11.0742 8.05078 12.043 7.25781 13.4844 7.25781C16.4883 7.25781 17.043 9.23438 17.043 11.8047V17.043Z"
                           fill="#98A2B3"></path>
@@ -691,7 +691,7 @@ const AboutUs = () => {
                 <div
                   className="bg-custom-2 backdrop-blur-3xl rounded-lg flex items-center justify-center flex-col p-4 w-full mx-auto">
                   <img alt="Om Gupta"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fom.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fom.jpg&amp;w=384&amp;q=100 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fom.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fom.jpg&amp;w=384&amp;q=100 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fom.jpg&amp;w=384&amp;q=100" width="150" height="100"
                     decoding="async" data-nimg="1" className="rounded mb-4"
                   />
@@ -706,7 +706,7 @@ const AboutUs = () => {
                     </svg></div>
                     <div role="presentation" className="cursor-pointer"><svg width="20" height="20" viewBox="0 0 20 20"
                       fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_3474_72219)">
+                      <g clipPath="url(#clip0_3474_72219)">
                         <path
                           d="M18.5195 0H1.47656C0.660156 0 0 0.644531 0 1.44141V18.5547C0 19.3516 0.660156 20 1.47656 20H18.5195C19.3359 20 20 19.3516 20 18.5586V1.44141C20 0.644531 19.3359 0 18.5195 0ZM5.93359 17.043H2.96484V7.49609H5.93359V17.043ZM4.44922 6.19531C3.49609 6.19531 2.72656 5.42578 2.72656 4.47656C2.72656 3.52734 3.49609 2.75781 4.44922 2.75781C5.39844 2.75781 6.16797 3.52734 6.16797 4.47656C6.16797 5.42188 5.39844 6.19531 4.44922 6.19531ZM17.043 17.043H14.0781V12.4023C14.0781 11.2969 14.0586 9.87109 12.5352 9.87109C10.9922 9.87109 10.7578 11.0781 10.7578 12.3242V17.043H7.79688V7.49609H10.6406V8.80078H10.6797C11.0742 8.05078 12.043 7.25781 13.4844 7.25781C16.4883 7.25781 17.043 9.23438 17.043 11.8047V17.043Z"
                           fill="#98A2B3"></path>
@@ -722,7 +722,7 @@ const AboutUs = () => {
                 <div
                   className="bg-custom-2 backdrop-blur-3xl rounded-lg flex items-center justify-center flex-col p-4 w-full mx-auto">
                   <img alt="Siddhi"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fsiddhi.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fsiddhi.jpg&amp;w=384&amp;q=100 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fsiddhi.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fsiddhi.jpg&amp;w=384&amp;q=100 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fsiddhi.jpg&amp;w=384&amp;q=100" width="150"
                     height="100" decoding="async" data-nimg="1" className="rounded mb-4"
                   />
@@ -738,7 +738,7 @@ const AboutUs = () => {
                     </svg></div>
                     <div role="presentation" className="cursor-pointer"><svg width="20" height="20" viewBox="0 0 20 20"
                       fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_3474_72219)">
+                      <g clipPath="url(#clip0_3474_72219)">
                         <path
                           d="M18.5195 0H1.47656C0.660156 0 0 0.644531 0 1.44141V18.5547C0 19.3516 0.660156 20 1.47656 20H18.5195C19.3359 20 20 19.3516 20 18.5586V1.44141C20 0.644531 19.3359 0 18.5195 0ZM5.93359 17.043H2.96484V7.49609H5.93359V17.043ZM4.44922 6.19531C3.49609 6.19531 2.72656 5.42578 2.72656 4.47656C2.72656 3.52734 3.49609 2.75781 4.44922 2.75781C5.39844 2.75781 6.16797 3.52734 6.16797 4.47656C6.16797 5.42188 5.39844 6.19531 4.44922 6.19531ZM17.043 17.043H14.0781V12.4023C14.0781 11.2969 14.0586 9.87109 12.5352 9.87109C10.9922 9.87109 10.7578 11.0781 10.7578 12.3242V17.043H7.79688V7.49609H10.6406V8.80078H10.6797C11.0742 8.05078 12.043 7.25781 13.4844 7.25781C16.4883 7.25781 17.043 9.23438 17.043 11.8047V17.043Z"
                           fill="#98A2B3"></path>
@@ -754,7 +754,7 @@ const AboutUs = () => {
                 <div
                   className="bg-custom-2 backdrop-blur-3xl rounded-lg flex items-center justify-center flex-col p-4 w-full mx-auto">
                   <img alt="Ambesh"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fambesh.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fambesh.jpg&amp;w=384&amp;q=100 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fambesh.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fambesh.jpg&amp;w=384&amp;q=100 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fambesh.jpg&amp;w=384&amp;q=100" width="150"
                     height="100" decoding="async" data-nimg="1" className="rounded mb-4"
                   />
@@ -770,7 +770,7 @@ const AboutUs = () => {
                     </svg></div>
                     <div role="presentation" className="cursor-pointer"><svg width="20" height="20" viewBox="0 0 20 20"
                       fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_3474_72219)">
+                      <g clipPath="url(#clip0_3474_72219)">
                         <path
                           d="M18.5195 0H1.47656C0.660156 0 0 0.644531 0 1.44141V18.5547C0 19.3516 0.660156 20 1.47656 20H18.5195C19.3359 20 20 19.3516 20 18.5586V1.44141C20 0.644531 19.3359 0 18.5195 0ZM5.93359 17.043H2.96484V7.49609H5.93359V17.043ZM4.44922 6.19531C3.49609 6.19531 2.72656 5.42578 2.72656 4.47656C2.72656 3.52734 3.49609 2.75781 4.44922 2.75781C5.39844 2.75781 6.16797 3.52734 6.16797 4.47656C6.16797 5.42188 5.39844 6.19531 4.44922 6.19531ZM17.043 17.043H14.0781V12.4023C14.0781 11.2969 14.0586 9.87109 12.5352 9.87109C10.9922 9.87109 10.7578 11.0781 10.7578 12.3242V17.043H7.79688V7.49609H10.6406V8.80078H10.6797C11.0742 8.05078 12.043 7.25781 13.4844 7.25781C16.4883 7.25781 17.043 9.23438 17.043 11.8047V17.043Z"
                           fill="#98A2B3"></path>
@@ -786,7 +786,7 @@ const AboutUs = () => {
                 <div
                   className="bg-custom-2 backdrop-blur-3xl rounded-lg flex items-center justify-center flex-col p-4 w-full mx-auto">
                   <img alt="Vatsal"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fvatsal.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fvatsal.jpg&amp;w=384&amp;q=100 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fvatsal.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fvatsal.jpg&amp;w=384&amp;q=100 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fvatsal.jpg&amp;w=384&amp;q=100" width="150"
                     height="100" decoding="async" data-nimg="1" className="rounded mb-4"
                   />
@@ -801,7 +801,7 @@ const AboutUs = () => {
                     </svg></div>
                     <div role="presentation" className="cursor-pointer"><svg width="20" height="20" viewBox="0 0 20 20"
                       fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_3474_72219)">
+                      <g clipPath="url(#clip0_3474_72219)">
                         <path
                           d="M18.5195 0H1.47656C0.660156 0 0 0.644531 0 1.44141V18.5547C0 19.3516 0.660156 20 1.47656 20H18.5195C19.3359 20 20 19.3516 20 18.5586V1.44141C20 0.644531 19.3359 0 18.5195 0ZM5.93359 17.043H2.96484V7.49609H5.93359V17.043ZM4.44922 6.19531C3.49609 6.19531 2.72656 5.42578 2.72656 4.47656C2.72656 3.52734 3.49609 2.75781 4.44922 2.75781C5.39844 2.75781 6.16797 3.52734 6.16797 4.47656C6.16797 5.42188 5.39844 6.19531 4.44922 6.19531ZM17.043 17.043H14.0781V12.4023C14.0781 11.2969 14.0586 9.87109 12.5352 9.87109C10.9922 9.87109 10.7578 11.0781 10.7578 12.3242V17.043H7.79688V7.49609H10.6406V8.80078H10.6797C11.0742 8.05078 12.043 7.25781 13.4844 7.25781C16.4883 7.25781 17.043 9.23438 17.043 11.8047V17.043Z"
                           fill="#98A2B3"></path>
@@ -817,7 +817,7 @@ const AboutUs = () => {
                 <div
                   className="bg-custom-2 backdrop-blur-3xl rounded-lg flex items-center justify-center flex-col p-4 w-full mx-auto">
                   <img alt="Arush"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Farush.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Farush.jpg&amp;w=384&amp;q=100 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Farush.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Farush.jpg&amp;w=384&amp;q=100 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Farush.jpg&amp;w=384&amp;q=100" width="150"
                     height="100" decoding="async" data-nimg="1" className="rounded mb-4"
                   />
@@ -832,7 +832,7 @@ const AboutUs = () => {
                     </svg></div>
                     <div role="presentation" className="cursor-pointer"><svg width="20" height="20" viewBox="0 0 20 20"
                       fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_3474_72219)">
+                      <g clipPath="url(#clip0_3474_72219)">
                         <path
                           d="M18.5195 0H1.47656C0.660156 0 0 0.644531 0 1.44141V18.5547C0 19.3516 0.660156 20 1.47656 20H18.5195C19.3359 20 20 19.3516 20 18.5586V1.44141C20 0.644531 19.3359 0 18.5195 0ZM5.93359 17.043H2.96484V7.49609H5.93359V17.043ZM4.44922 6.19531C3.49609 6.19531 2.72656 5.42578 2.72656 4.47656C2.72656 3.52734 3.49609 2.75781 4.44922 2.75781C5.39844 2.75781 6.16797 3.52734 6.16797 4.47656C6.16797 5.42188 5.39844 6.19531 4.44922 6.19531ZM17.043 17.043H14.0781V12.4023C14.0781 11.2969 14.0586 9.87109 12.5352 9.87109C10.9922 9.87109 10.7578 11.0781 10.7578 12.3242V17.043H7.79688V7.49609H10.6406V8.80078H10.6797C11.0742 8.05078 12.043 7.25781 13.4844 7.25781C16.4883 7.25781 17.043 9.23438 17.043 11.8047V17.043Z"
                           fill="#98A2B3"></path>
@@ -848,7 +848,7 @@ const AboutUs = () => {
                 <div
                   className="bg-custom-2 backdrop-blur-3xl rounded-lg flex items-center justify-center flex-col p-4 w-full mx-auto">
                   <img alt="Preetham"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fpreetham.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fpreetham.jpg&amp;w=384&amp;q=100 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fpreetham.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fpreetham.jpg&amp;w=384&amp;q=100 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fpreetham.jpg&amp;w=384&amp;q=100" width="150"
                     height="100" decoding="async" data-nimg="1" className="rounded mb-4"
                   />
@@ -863,7 +863,7 @@ const AboutUs = () => {
                     </svg></div>
                     <div role="presentation" className="cursor-pointer"><svg width="20" height="20" viewBox="0 0 20 20"
                       fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_3474_72219)">
+                      <g clipPath="url(#clip0_3474_72219)">
                         <path
                           d="M18.5195 0H1.47656C0.660156 0 0 0.644531 0 1.44141V18.5547C0 19.3516 0.660156 20 1.47656 20H18.5195C19.3359 20 20 19.3516 20 18.5586V1.44141C20 0.644531 19.3359 0 18.5195 0ZM5.93359 17.043H2.96484V7.49609H5.93359V17.043ZM4.44922 6.19531C3.49609 6.19531 2.72656 5.42578 2.72656 4.47656C2.72656 3.52734 3.49609 2.75781 4.44922 2.75781C5.39844 2.75781 6.16797 3.52734 6.16797 4.47656C6.16797 5.42188 5.39844 6.19531 4.44922 6.19531ZM17.043 17.043H14.0781V12.4023C14.0781 11.2969 14.0586 9.87109 12.5352 9.87109C10.9922 9.87109 10.7578 11.0781 10.7578 12.3242V17.043H7.79688V7.49609H10.6406V8.80078H10.6797C11.0742 8.05078 12.043 7.25781 13.4844 7.25781C16.4883 7.25781 17.043 9.23438 17.043 11.8047V17.043Z"
                           fill="#98A2B3"></path>
@@ -879,7 +879,7 @@ const AboutUs = () => {
                 <div
                   className="bg-custom-2 backdrop-blur-3xl rounded-lg flex items-center justify-center flex-col p-4 w-full mx-auto">
                   <img alt="Manavendra"
-                    srcset="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fmavn.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fmavn.jpg&amp;w=384&amp;q=100 2x"
+                    srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fmavn.jpg&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fmavn.jpg&amp;w=384&amp;q=100 2x"
                     src="https://huddle01.com/_next/image?url=%2Fimages%2FAbout%2FTeam%2Fmavn.jpg&amp;w=384&amp;q=100" width="150"
                     height="100" decoding="async" data-nimg="1" className="rounded mb-4"
                   />
@@ -894,7 +894,7 @@ const AboutUs = () => {
                     </svg></div>
                     <div role="presentation" className="cursor-pointer"><svg width="20" height="20" viewBox="0 0 20 20"
                       fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_3474_72219)">
+                      <g clipPath="url(#clip0_3474_72219)">
                         <path
                           d="M18.5195 0H1.47656C0.660156 0 0 0.644531 0 1.44141V18.5547C0 19.3516 0.660156 20 1.47656 20H18.5195C19.3359 20 20 19.3516 20 18.5586V1.44141C20 0.644531 19.3359 0 18.5195 0ZM5.93359 17.043H2.96484V7.49609H5.93359V17.043ZM4.44922 6.19531C3.49609 6.19531 2.72656 5.42578 2.72656 4.47656C2.72656 3.52734 3.49609 2.75781 4.44922 2.75781C5.39844 2.75781 6.16797 3.52734 6.16797 4.47656C6.16797 5.42188 5.39844 6.19531 4.44922 6.19531ZM17.043 17.043H14.0781V12.4023C14.0781 11.2969 14.0586 9.87109 12.5352 9.87109C10.9922 9.87109 10.7578 11.0781 10.7578 12.3242V17.043H7.79688V7.49609H10.6406V8.80078H10.6797C11.0742 8.05078 12.043 7.25781 13.4844 7.25781C16.4883 7.25781 17.043 9.23438 17.043 11.8047V17.043Z"
                           fill="#98A2B3"></path>
@@ -916,19 +916,19 @@ const AboutUs = () => {
               </div>
               <div className="grid md:grid-cols-4 gap-6 grid-cols-2">
                 <div className="bg-custom-2 backdrop-blur-2xl rounded-2xl flex items-center w-full justify-center flex-col cursor-pointer mx-auto py-4 md:py-8 hover:bg-custom-8 transition-all duration-300 ease-in-out" role="presentation">
-                  <img alt="Twitter" srcset="https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FTwitter.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FTwitter.png&amp;w=640&amp;q=100 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FTwitter.png&amp;w=640&amp;q=100" width="65" height="50" decoding="async" data-nimg="1" className="object-contain" loading="lazy" />
+                  <img alt="Twitter" srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FTwitter.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FTwitter.png&amp;w=640&amp;q=100 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FTwitter.png&amp;w=640&amp;q=100" width="65" height="50" decoding="async" data-nimg="1" className="object-contain" loading="lazy" />
                   <div className=" text-gray-400 font-inter font-medium text-lg mt-4">Twitter</div>
                 </div>
                 <div className="bg-custom-2 backdrop-blur-2xl rounded-2xl flex items-center w-full justify-center flex-col cursor-pointer mx-auto py-4 md:py-8 hover:bg-custom-8 transition-all duration-300 ease-in-out" role="presentation">
-                  <img alt="Discord" srcset="https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FDiscord.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FDiscord.png&amp;w=640&amp;q=100 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FDiscord.png&amp;w=640&amp;q=100" width="65" height="50" decoding="async" data-nimg="1" className="object-contain" loading="lazy" />
+                  <img alt="Discord" srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FDiscord.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FDiscord.png&amp;w=640&amp;q=100 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FDiscord.png&amp;w=640&amp;q=100" width="65" height="50" decoding="async" data-nimg="1" className="object-contain" loading="lazy" />
                   <div className=" text-gray-400 font-inter font-medium text-lg mt-4">Discord</div>
                 </div>
                 <div className="bg-custom-2 backdrop-blur-2xl rounded-2xl flex items-center w-full justify-center flex-col cursor-pointer mx-auto py-4 md:py-8 hover:bg-custom-8 transition-all duration-300 ease-in-out" role="presentation">
-                  <img alt="Linkedin" srcset="https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FLinkedin.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FLinkedin.png&amp;w=640&amp;q=100 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FLinkedin.png&amp;w=640&amp;q=100" width="65" height="50" decoding="async" data-nimg="1" className="object-contain" loading="lazy" />
+                  <img alt="Linkedin" srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FLinkedin.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FLinkedin.png&amp;w=640&amp;q=100 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FLinkedin.png&amp;w=640&amp;q=100" width="65" height="50" decoding="async" data-nimg="1" className="object-contain" loading="lazy" />
                   <div className=" text-gray-400 font-inter font-medium text-lg mt-4">Linkedin</div>
                 </div>
                 <div className="bg-custom-2 backdrop-blur-2xl rounded-2xl flex items-center w-full justify-center flex-col cursor-pointer mx-auto py-4 md:py-8 hover:bg-custom-8 transition-all duration-300 ease-in-out" role="presentation">
-                  <img alt="Substack" srcset="https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FSubstack.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FSubstack.png&amp;w=640&amp;q=100 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FSubstack.png&amp;w=640&amp;q=100" width="65" height="50" decoding="async" data-nimg="1" className="object-contain" loading="lazy" />
+                  <img alt="Substack" srcSet="https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FSubstack.png&amp;w=256&amp;q=100 1x, https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FSubstack.png&amp;w=640&amp;q=100 2x" src="https://huddle01.com/_next/image?url=%2Fimages%2FSocialMedia%2FSubstack.png&amp;w=640&amp;q=100" width="65" height="50" decoding="async" data-nimg="1" className="object-contain" loading="lazy" />
                   <div className=" text-gray-400 font-inter font-medium text-lg mt-4">Substack</div>
                 </div>
               </div>

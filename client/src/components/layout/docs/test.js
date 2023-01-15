@@ -33,7 +33,7 @@ const OverView = () => {
                             <svg fill="none" viewBox="0 0 24 24"
                               stroke="currentColor"
                               className="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5">
-                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"
                                 className="origin-center transition-transform rtl:-rotate-180 ltr:rotate-90 rtl:rotate-[-270deg]">
                               </path>
                             </svg>
@@ -65,12 +65,12 @@ const OverView = () => {
                     className="nextra-breadcrumb mt-2.5 flex items-center gap-1 overflow-hidden text-sm text-gray-500 contrast-more:text-current">
                     <li className="transition-colors whitespace-nowrap min-w-[24px] overflow-hidden text-ellipsis" title="Docs">
                       Docs</li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-3.5 shrink-0">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
                     </svg>
                     <li className="transition-colors whitespace-nowrap min-w-[24px] overflow-hidden text-ellipsis"
                       title="Introduction">Introduction</li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"
                         className="w-3.5 shrink-0">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
                     </svg>
                     <li
                       className="transition-colors whitespace-nowrap text-gray-700 dark:text-gray-400 font-medium contrast-more:font-bold contrast-more:text-current contrast-more:dark:text-current"
