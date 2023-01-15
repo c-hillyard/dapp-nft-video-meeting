@@ -1,0 +1,67 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
+
+const Navbar = () => {
+  const [mobileNavShow, setMobileNavShow] = React.useState(false)
+
+  return (
+    <nav className="bg-rgbColors-1 w-full px-8 py-4 flex items-center justify-between border-b border-custom-3 backdrop-blur-sm z-10 sticky top-0">
+      <div className="flex items-center">
+        <div role="presentation" className="cursor-pointer flex items-center">
+          <Link to='/'>
+            <img alt="logo" src="/image/logo.png" width="130" height="28" decoding="async" data-nimg="1" />
+          </Link>
+        </div>
+        <div className="md:flex items-center hidden ">
+          <div role="presentation" className="flex items-center font-inter text-base font-medium text-gray-500 ml-5 cursor-pointer hover:bg-custom-8 py-1.5 px-4 rounded-lg transition-all duration-300 ease-in-out"><Link to='/about'>About Us</Link></div>
+          <div role="presentation" className="flex items-center font-inter text-base font-medium text-gray-500 ml-5 cursor-pointer hover:bg-custom-8 py-1.5 px-4 rounded-lg transition-all duration-300 ease-in-out"><Link to='/product'>Product</Link></div>
+          <div role="presentation" className="flex items-center font-inter text-base font-medium text-gray-500 ml-5 cursor-pointer hover:bg-custom-8 py-1.5 px-4 rounded-lg transition-all duration-300 ease-in-out">
+            <Link to='/protocol'>Protocol<span className="ml-2 bg-rgbColors-5 py-0.5 px-2 rounded-2xl font-inter font-medium text-xs">New</span></Link>
+          </div>
+          <div role="presentation" className="flex items-center font-inter text-base font-medium text-gray-500 ml-5 cursor-pointer hover:bg-custom-8 py-1.5 px-4 rounded-lg transition-all duration-300 ease-in-out"><Link to='/contact'>Contact Us</Link></div>
+          <div role="presentation" className="flex items-center font-inter text-base font-medium text-gray-500 ml-5 cursor-pointer hover:bg-custom-8 py-1.5 px-4 rounded-lg transition-all duration-300 ease-in-out">
+            <Link to='/docs'>Docs</Link>
+          </div>
+        </div>
+      </div>
+      <div className="md:flex items-center hidden">
+        <div className="text-base font-inter font-medium text-gray-100 cursor-pointer mr-5 hover:bg-custom-8 py-2 px-4 rounded-lg transition-all duration-300 ease-in-out" role="presentation">
+          <span role="presentation" className="text-gray-100 font-inter font-semibold text-sm">Start a Meeting</span>
+        </div>
+        <button type="button" className="rounded-lg shadow-lg bg-gradient-to-b from-[#5C80FF] to-[#2447FD] bg-pos-0 bg-size-200 hover:bg-pos-100 py-2 px-4 cursor-pointer font-inter font-semibold flex items-center transition-all duration-300 ease-in-out">
+          <span role="presentation" className="flex items-center">
+            My Dashboard
+            <span className="bg-rgbColors-6 mx-2 rounded-2xl py-0.5 px-2 text-custom-3 text-xs font-inter font-medium">Beta</span>
+          </span>
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3.33337 10H16.6667M16.6667 10L11.6667 5M16.6667 10L11.6667 15" stroke="#FCFCFD"
+              stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            </path>
+          </svg>
+        </button>
+      </div>
+      <div className="md:hidden flex items-center">
+        <button type="button" onClick={() => setMobileNavShow(!mobileNavShow)}>
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11 20H29M11 14H29M11 26H29" stroke="#364754" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </button>
+        {mobileNavShow ?
+          <div class="absolute top-14 bg-rgbColors-1 h-screen w-full left-0 backdrop-blur-md transition-all duration-100 ease-in ]">
+            <div role="presentation" class="flex items-center py-8 px-6 text-slate-400 font-inter font-medium text-base cursor-pointer border-b border-custom-3 last:border-none hover:bg-custom-8"><Link to='/about'>About Us</Link></div>
+            <div role="presentation" class="flex items-center py-8 px-6 text-slate-400 font-inter font-medium text-base cursor-pointer border-b border-custom-3 last:border-none hover:bg-custom-8"><Link to='/product'>Product</Link></div>
+            <div role="presentation" class="flex items-center py-8 px-6 text-slate-400 font-inter font-medium text-base cursor-pointer border-b border-custom-3 last:border-none hover:bg-custom-8"><Link to='/protocol'>Protocol<span class="ml-2 bg-rgbColors-5 py-0.5 px-2 rounded-2xl font-inter font-medium text-xs">New</span></Link></div>
+            <div role="presentation" class="flex items-center py-8 px-6 text-slate-400 font-inter font-medium text-base cursor-pointer border-b border-custom-3 last:border-none hover:bg-custom-8"><Link to='/contact'>Contact</Link></div>
+            <div role="presentation" class="flex items-center py-8 px-6 text-slate-400 font-inter font-medium text-base cursor-pointer border-b border-custom-3 last:border-none hover:bg-custom-8">
+              <Link to='/docs'>Docs</Link>
+            </div>
+          </div>
+          :
+          null
+        }
+      </div>
+    </nav>
+  )
+}
+
+export default Navbar
