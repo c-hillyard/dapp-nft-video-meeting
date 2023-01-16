@@ -3,8 +3,7 @@ import React from 'react'
 const TopNav = () => {
 
   return (
-    <div role="toolbar" aria-orientation="horizontal" dir="ltr"
-      className="dark:bg-customDark-1 sticky z-10 flex justify-end border-b-2 border-slate-300 bg-zinc-50 py-1 px-10 transition duration-700 dark:border-b-2 dark:border-[#23262F]"
+    <div className="dark:bg-customDark-1 sticky z-10 flex justify-end border-b-2 border-slate-300 bg-zinc-50 py-1 px-10 dark:border-b-2 dark:border-[#23262F]"
       tabIndex="0" data-orientation="horizontal">
       <div role="group" dir="ltr" data-orientation="horizontal" aria-label="Navbar" className="flex ">
         <button type="button" data-state="closed" role="radio" aria-checked="false" aria-label="Wallet" className="dark:hover:bg-rgbColors-7 flex items-center rounded-xl py-2 pl-3 pr-5 hover:bg-slate-100 dark:hover:bg-rgbColors-7 flex items-center rounded-xl py-2 pl-3 pr-5 hover:bg-slate-100  " id="radix-:r0:" haspopup="menu" tabIndex="-1" data-orientation="horizontal" data-radix-collection-item="">

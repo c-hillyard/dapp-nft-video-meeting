@@ -869,7 +869,15 @@
   }
 
   .flex {
-    display: flex
+    display: flex;
+    flex-direction: row;
+  }
+
+  @media (max-width: 1250px) {
+    .flex {
+      display: flex;
+      // flex-direction: column;
+    }
   }
 
   .\!flex {

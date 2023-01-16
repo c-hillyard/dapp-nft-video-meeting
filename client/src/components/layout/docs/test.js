@@ -6,7 +6,7 @@ const OverView = () => {
     <div className='DOCS'>
       <div className="nextra-container main-container flex flex-col">
         <div className="nextra-nav-container sticky top-0 z-20 w-full bg-transparent dark">
-          <div className="nextra-nav-container-blur pointer-events-none absolute h-full w-full bg-white dark:bg-dark"></div>
+          <div className="nextra-nav-container-blur pointer-events-none absolute h-full w-full dark:bg-dark"></div>
           <main className='DOCS'>
             <div className="mx-auto flex w-full flex-1 items-stretch max-w-[90rem]">
               <aside

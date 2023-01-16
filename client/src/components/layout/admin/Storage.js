@@ -6,7 +6,7 @@ const Storage = () => {
     <main className="no-scrollbar h-full w-full overflow-y-auto px-12 pt-9 pb-28">
       <div className="mr-28">
         <section
-          className="mb-6 flex w-full flex-col h-fit rounded-2xl border-2 border-transparent bg-white p-4 transition duration-700 dark:border-2 dark:bg-zinc-900">
+          className="mb-6 flex w-full flex-col h-fit rounded-2xl border-2 border-transparent p-4 transition duration-700 dark:border-2 dark:bg-zinc-900">
           <div className="mb-8 flex w-full items-center justify-between px-2"><span
             className="text-base font-medium text-slate-800 dark:text-slate-300">Storage Statistics</span></div>
           <section className="grid w-full grid-cols-4 gap-4 gap-y-8">
@@ -32,7 +32,7 @@ const Storage = () => {
                   data-state="loading" data-value="66" data-max="100"
                   className="relative mt-2 h-4 w-full overflow-hidden rounded-full bg-slate-200 transition duration-700 dark:bg-gray-700">
                   <div data-state="loading" data-value="66" data-max="100"
-                    className="transition-loading h-full bg-white bg-gradient-to-r from-[#8263DBC7] to-[#341D65] duration-500 ease-in-out "></div>
+                    className="transition-loading h-full bg-gradient-to-r from-[#8263DBC7] to-[#341D65] duration-500 ease-in-out "></div>
                 </div>
                 <p className="mt-3 text-xs font-normal text-slate-400 dark:text-slate-300">0 MB of 100 GB Used</p>
               </section>
@@ -82,7 +82,7 @@ const Storage = () => {
         </section>
         <div className="mb-6">
           <section
-            className="w-full h-fit rounded-2xl border-2 border-transparent bg-white p-4 transition duration-700 dark:border-2 dark:bg-zinc-900">
+            className="w-full h-fit rounded-2xl border-2 border-transparent p-4 transition duration-700 dark:border-2 dark:bg-zinc-900">
             <div className="flex w-full items-center justify-between ">
               <div
                 className="dark:text-slate-100 dark:bg-rgbColors-2 bg-slate-100 text-slate-500 rounded-xl py-3 px-4 text-xs font-semibold cursor-default transition duration-700">

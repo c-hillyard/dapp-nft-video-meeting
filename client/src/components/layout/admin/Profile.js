@@ -23,7 +23,7 @@ const Profile = () => {
         <section className="relative mt-3">
           <section className="text-center">
             <p className="mb-7 cursor-default text-2xl font-bold text-slate-800 dark:text-white"></p>
-            <section className="flex items-center justify-center gap-8">
+            <section className="mb-3 flex items-center justify-center gap-8">
               <div role="button" tabIndex="0"
                 className="dark:bg-customDark-2 flex cursor-default items-center rounded-lg bg-neutral-200 py-1 px-4">
                 <p className="text-base font-medium text-slate-800 dark:text-slate-500">Eth</p>
@@ -40,6 +40,9 @@ const Profile = () => {
                 </div>
               </div>
             </section>
+            <button type="button" className=" rounded-xl py-2 px-3 text-sm font-semibold hover:opacity-80  dark:text-slate-400 text-slate-500 dark:border-gray-700 border-slate-300 dark:border-2 border-2">
+              Edit Profile
+            </button>
             {/* <section className="mt-9 flex cursor-default items-center justify-center gap-8">
               <div className="flex items-center gap-2 rounded-xl border border-slate-500 py-3 px-4"><span> <svg width="14"
                 height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -106,11 +109,13 @@ const Profile = () => {
           <section className="mt-10 flex items-center justify-center">
             <p className=" max-w-sm text-center text-slate-500 dark:text-slate-400"></p>
           </section>
+
           <section className="mt-8">
             <div data-orientation="horizontal">
               <div className="dark:bg-customDark-1 sticky top-0 left-0 z-10 bg-zinc-50 transition duration-700  -top-9">
                 <div role="tablist" aria-orientation="horizontal" dir="ltr" className="flex flex-row justify-center"
-                  aria-label="Manage your Profile" tabIndex="0" data-orientation="horizontal"><button
+                  aria-label="Manage your Profile" tabIndex="0" data-orientation="horizontal">
+                  <button
                     type="button" role="tab" aria-selected="true" aria-controls="radix-:rv:-content-tab1"
                     data-state="active" id="radix-:rv:-trigger-tab1"
                     className="static top-0 left-0 z-[2] m-1 w-36 pb-3  undefined border-brand border-b-2 dark:text-slate-100 text-slate-700 transition duration-700"
@@ -121,7 +126,8 @@ const Profile = () => {
                     className="static top-0 left-0 z-[2] m-1 w-36 pb-3  undefined dark:text-slate-500 text-slate-400 border-b-2 border-transparent transition duration-700"
                     tabIndex="-1" data-orientation="horizontal" data-radix-collection-item="">
                     <p>Subdomains</p>
-                  </button></div>
+                  </button>
+                </div>
                 <hr className="relative -top-1 z-[1] justify-evenly border-slate-300 dark:border-slate-800" />
               </div>
               <div data-state="active" data-orientation="horizontal" role="tabpanel"
@@ -267,12 +273,10 @@ const Profile = () => {
                   className="max-w-xs text-center text-base font-normal capitalize text-slate-400 dark:text-slate-500">No
                     Collections found.</span></div>
               </div>
-              <div data-state="inactive" data-orientation="horizontal" role="tabpanel"
-                aria-labelledby="radix-:rv:-trigger-tab2" hidden="" id="radix-:rv:-content-tab2" tabIndex="0"></div>
+              <div data-state="inactive" data-orientation="horizontal" role="tabpanel" aria-labelledby="radix-:rv:-trigger-tab2" hidden="" id="radix-:rv:-content-tab2" tabIndex="0"></div>
             </div>
-          </section><button type="button"
-            className="rounded-xl py-2 px-3 text-sm font-semibold hover:opacity-80  dark:text-slate-400 text-slate-500 dark:border-gray-700 border-slate-300 dark:border-2 border-2 absolute top-0 right-0 transition duration-700">Edit
-            Profile</button>
+          </section>
+
         </section>
       </section>
     </main>
