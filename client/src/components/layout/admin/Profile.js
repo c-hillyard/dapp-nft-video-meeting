@@ -1,6 +1,19 @@
 import React from 'react'
+import ellipseAddress from '../../../utils/ellipseAddress'
+import MetamaskImage from '../../reuseable/MetamaskImage'
+import { useHistory } from 'react-router-dom'
 
 const Profile = () => {
+  const history = useHistory()
+  const [walletAddress, setWalletAddress] = React.useState('')
+  React.useEffect(() => {
+    let _walletAddress = localStorage.getItem('walletAddress')
+    if (_walletAddress === "null") {
+      history.push('/')
+    } else {
+      setWalletAddress(localStorage.getItem('walletAddress'))
+    }
+  }, [])
 
   return (
     <main className="no-scrollbar h-full w-full overflow-y-auto px-12 pt-9 pb-28">
@@ -26,10 +39,12 @@ const Profile = () => {
             <section className="mb-3 flex items-center justify-center gap-8">
               <div role="button" tabIndex="0"
                 className="dark:bg-customDark-2 flex cursor-default items-center rounded-lg bg-neutral-200 py-1 px-4">
-                <p className="text-base font-medium text-slate-800 dark:text-slate-500">Eth</p>
+                <p className="text-base font-medium text-slate-800 dark:text-slate-500">
+                  <MetamaskImage />
+                </p>
                 <div className="mx-3 h-4 border-l-2 border-slate-500"></div>
                 <div className="flex items-center gap-3">
-                  <p className="text-brand cursor-pointer hover:opacity-80">0x41A2...38499</p><span
+                  <p className="text-brand cursor-pointer hover:opacity-80">{ellipseAddress(walletAddress)}</p><span
                     className="cursor-pointer hover:opacity-80"><svg width="20" height="21" viewBox="0 0 20 21" fill="none"
                       xmlns="http://www.w3.org/2000/svg">
                       <path d="M16.875 15.1885V3.93848H5.625" stroke="#475569" strokeLinecap="round"
