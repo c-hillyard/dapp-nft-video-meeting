@@ -7,7 +7,12 @@ const TopNav = () => {
   const history = useHistory()
   const [walletAddress, setWalletAddress] = React.useState('')
   React.useEffect(() => {
-    setWalletAddress(localStorage.getItem('walletAddress'))
+    let _walletAddress = localStorage.getItem('walletAddress')
+    if (_walletAddress === "null") {
+      history.push('/')
+    } else {
+      setWalletAddress(localStorage.getItem('walletAddress'))
+    }
   }, [])
 
   const disconnectWallet = async () => {
