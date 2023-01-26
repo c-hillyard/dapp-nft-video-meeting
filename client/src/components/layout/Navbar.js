@@ -1,8 +1,32 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useHistory } from 'react-router-dom'
+import WalletConnectProvider from "@walletconnect/web3-provider"
+import Web3 from "web3"
+import Web3Modal from "web3modal"
 
 const Navbar = () => {
+  const history = useHistory()
   const [mobileNavShow, setMobileNavShow] = React.useState(false)
+  const [web3, setWeb3] = React.useState(null)
+  const [walletAddress, setWalletAddress] = React.useState(null)
+
+  const providerOptions = {}
+
+  const web3Modal = new Web3Modal({
+    network: "mainnet", // optional
+    cacheProvider: true, // optional
+    providerOptions // required
+  })
+
+  const connectWallet = async () => {
+    let provider = await web3Modal.connect()
+    let _web3 = new Web3(provider)
+    setWeb3(_web3)
+    let accounts = await _web3.eth.getAccounts()
+    setWalletAddress(accounts[0].toLowerCase())
+    localStorage.setItem('walletAddress', accounts[0].toLowerCase())
+    history.push('/dashboard')
+  }
 
   return (
     <nav className="bg-rgbColors-1 w-full px-8 py-4 flex items-center justify-between border-b border-custom-3 backdrop-blur-sm z-10 sticky top-0">
@@ -28,8 +52,8 @@ const Navbar = () => {
         <div className="text-base font-inter font-medium text-gray-100 cursor-pointer mr-5 hover:bg-custom-8 py-2 px-4 rounded-lg transition-all duration-300 ease-in-out" role="presentation">
           <span role="presentation" className="text-gray-100 font-inter font-semibold text-sm">Start a Meeting</span>
         </div>
-        <button type="button" className="rounded-lg shadow-lg bg-gradient-to-b from-[#5C80FF] to-[#2447FD] bg-pos-0 bg-size-200 hover:bg-pos-100 py-2 px-4 cursor-pointer font-inter font-semibold flex items-center transition-all duration-300 ease-in-out">
-          <Link to='/dashboard'>
+        <button type="button" onClick={() => connectWallet()} className="rounded-lg shadow-lg bg-gradient-to-b from-[#5C80FF] to-[#2447FD] bg-pos-0 bg-size-200 hover:bg-pos-100 py-2 px-4 cursor-pointer font-inter font-semibold flex items-center transition-all duration-300 ease-in-out">
+          {/* <Link to='/dashboard'> */}
             <span className='flex items-center'>
               <span role="presentation" className="flex items-center">
                 My Dashboard
@@ -41,7 +65,7 @@ const Navbar = () => {
                 </path>
               </svg>
             </span>
-          </Link>
+          {/* </Link> */}
         </button>
       </div>
       <div className="md:hidden flex items-center">
